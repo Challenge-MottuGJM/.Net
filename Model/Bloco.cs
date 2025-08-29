@@ -12,7 +12,7 @@ public class Bloco : IBindableFromHttpContext<Bloco>
 {
     public static async ValueTask<Bloco?> BindAsync(HttpContext context, ParameterInfo parameter)
     {
-        if (context.Request.ContentType.Contains("xml"))
+        if (context.Request.ContentType != null && context.Request.ContentType.Contains("xml"))
         {
             var xmlDoc = await XDocument.LoadAsync(context.Request.Body, LoadOptions.None, context.RequestAborted);
             var serializer = new XmlSerializer(typeof(Galpao));
@@ -29,7 +29,7 @@ public class Bloco : IBindableFromHttpContext<Bloco>
     
     [Column("LETRA_BLOCO")]
     [Description("Letra do bloco")]
-    public string Letra_bloco { get; set; }
+    public string? Letra_bloco { get; set; }
 
     [Column("PATIO_ID")]
     [Description("Identificador único do Patio que se encontra o Bloco")]

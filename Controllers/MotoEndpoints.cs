@@ -80,7 +80,7 @@ public static class MotoEndpoints
                 var searchTerm = modelo ?? string.Empty;
 
                 var query = db.Motos
-                    .Where(m => m.Modelo.ToLower().Contains(searchTerm.ToLower()));
+                    .Where(m => m.Modelo.Contains(searchTerm, StringComparison.OrdinalIgnoreCase));
 
                 var totalItems = await query.CountAsync();
                 var data = await query

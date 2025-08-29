@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EasyFinder.Controllers;
 
-public class VagaEndpoints
+public static class VagaEndpoints
 {
     public static void Map(WebApplication app)
     {

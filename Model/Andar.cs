@@ -13,7 +13,7 @@ public class Andar : IBindableFromHttpContext<Andar>
     
     public static async ValueTask<Andar?> BindAsync(HttpContext context, ParameterInfo parameter)
     {
-        if (context.Request.ContentType.Contains("xml"))
+        if (context.Request.ContentType != null && context.Request.ContentType.Contains("xml"))
         {
             var xmlDoc = await XDocument.LoadAsync(context.Request.Body, LoadOptions.None, context.RequestAborted);
             var serializer = new XmlSerializer(typeof(Andar));

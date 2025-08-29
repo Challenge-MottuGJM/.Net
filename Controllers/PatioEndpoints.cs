@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EasyFinder.Controllers;
 
-public class PatioEndpoints
+public static class PatioEndpoints
 {
     public static void Map(WebApplication app)
     {

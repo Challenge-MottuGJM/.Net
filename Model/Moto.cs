@@ -12,7 +12,8 @@ public class Moto: IBindableFromHttpContext<Moto>
 {
     public static async ValueTask<Moto?> BindAsync(HttpContext context, ParameterInfo parameter)
     {
-        if (context.Request.ContentType.Contains("xml"))
+        if (!string.IsNullOrEmpty(context.Request.ContentType) && context.Request.ContentType.Contains("xml"))
+
         {
             var xmlDoc = await XDocument.LoadAsync(context.Request.Body, LoadOptions.None, context.RequestAborted);
             var serializer = new XmlSerializer(typeof(Moto));
@@ -29,23 +30,23 @@ public class Moto: IBindableFromHttpContext<Moto>
     
     [Column("STATUS")]
     [Description("Status da situação da Moto")]
-    public string Status { get; set; }
+    public string Status { get; set; } = string.Empty;
     
     [Column("MODELO")]
     [Description("Modelo da Vaga")]
-    public string Modelo { get; set; }
+    public string Modelo { get; set; } = string.Empty;
     
     [Column("MARCA")]
     [Description("Marca da Vaga")]
-    public string Marca { get; set; }
+    public string Marca { get; set; } = string.Empty;
     
     [Column("PLACA")]
     [Description("Placa da Vaga")]
-    public string Placa { get; set; }
+    public string Placa { get; set; } = string.Empty;
     
     [Column("CHASSI")]
     [Description("Chassi da Vaga")]
-    public string Chassi { get; set; }
+    public string Chassi { get; set; } = string.Empty;
     
     [Column("VAGA_ID")]
     [Description("Identificador único da Vaga que se encontra a Moto")]

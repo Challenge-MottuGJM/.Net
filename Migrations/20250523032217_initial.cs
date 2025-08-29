@@ -2,29 +2,28 @@
 
 #nullable disable
 
-public static class DatabaseTypes
-{
-    public const string Number10 = "NUMBER(10)";
-}
-
-public static class OracleAnnotations
-{
-    public const string Identity = "Oracle:Identity";
-}
-
-public static class OracleIdentityConfig
-{
-    public const string StartWith1IncrementBy1 = "START WITH 1 INCREMENT BY 1";
-}
-
-public static class OracleColumnTypes
-{
-    public const string NVarChar2000 = "NVARCHAR2(2000)";
-}
-
-
 namespace EasyFinder.Migrations
 {
+    public static class DatabaseTypes
+    {
+        public const string Number10 = "NUMBER(10)";
+    }
+
+    public static class OracleAnnotations
+    {
+        public const string Identity = "Oracle:Identity";
+    }
+
+    public static class OracleIdentityConfig
+    {
+        public const string StartWith1IncrementBy1 = "START WITH 1 INCREMENT BY 1";
+    }
+
+    public static class OracleColumnTypes
+    {
+        public const string NVarChar2000 = "NVARCHAR2(2000)";
+    }
+
     /// <inheritdoc />
     public partial class initial : Migration
     {

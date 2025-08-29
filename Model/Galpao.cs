@@ -12,7 +12,8 @@ public class Galpao : IBindableFromHttpContext<Galpao>
 {
     public static async ValueTask<Galpao?> BindAsync(HttpContext context, ParameterInfo parameter)
     {
-        if (context.Request.ContentType.Contains("xml"))
+        if (!string.IsNullOrEmpty(context.Request.ContentType) && context.Request.ContentType.Contains("xml"))
+
         {
             var xmlDoc = await XDocument.LoadAsync(context.Request.Body, LoadOptions.None, context.RequestAborted);
             var serializer = new XmlSerializer(typeof(Galpao));
@@ -29,6 +30,7 @@ public class Galpao : IBindableFromHttpContext<Galpao>
     
     [Column("NOME_GALPAO")]
     [Description("Nome do galpão")]
-    public string Nome_galpao { get; set; }
+    public string Nome_galpao { get; set; } = string.Empty;
+
     
 }

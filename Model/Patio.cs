@@ -13,7 +13,8 @@ public class Patio : IBindableFromHttpContext<Patio>
     
     public static async ValueTask<Patio?> BindAsync(HttpContext context, ParameterInfo parameter)
     {
-        if (context.Request.ContentType.Contains("xml"))
+        if (!string.IsNullOrEmpty(context.Request.ContentType) && context.Request.ContentType.Contains("xml"))
+
         {
             var xmlDoc = await XDocument.LoadAsync(context.Request.Body, LoadOptions.None, context.RequestAborted);
             var serializer = new XmlSerializer(typeof(Patio));

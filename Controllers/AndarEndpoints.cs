@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EasyFinder.Controllers;
 
-public class AndarEndpoints
+public static class AndarEndpoints
 {
     public static void Map(WebApplication app)
     {

@@ -1,0 +1,23 @@
+�
+�C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\obj\Debug\net9.0\EasyFinder.MvcApplicationPartsAssemblyInfo.csutf-8�
+�C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\obj\Debug\net9.0\EasyFinder.AssemblyInfo.csutf-8�
+�C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.csutf-8�
+�C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\obj\Debug\net9.0\EasyFinder.GlobalUsings.g.csutf-8u
+lC:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Program.csutf-8x
+oC:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Model\Vaga.csutf-8y
+pC:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Model\Patio.csutf-8x
+oC:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Model\Moto.csutf-8z
+qC:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Model\Galpao.csutf-8�
+xC:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Model\Dto\SearchDto.csutf-8y
+pC:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Model\Bloco.csutf-8y
+pC:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Model\Andar.csutf-8�
+�C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Migrations\MottuDbContextModelSnapshot.csutf-8�
+�C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Migrations\20250523032217_initial.Designer.csutf-8�
+�C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Migrations\20250523032217_initial.csutf-8�
+|C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\DbConfig\MottuDbContext.csutf-8�
+~C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Controllers\VagaEndpoints.csutf-8�
+C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Controllers\PatioEndpoints.csutf-8�
+~C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Controllers\MotoEndpoints.csutf-8�
+�C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Controllers\GalpaoEndpoints.csutf-8�
+C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Controllers\BlocoEndpoints.csutf-8�
+C:\Users\mathe\OneDrive\Área de Trabalho\FIAP\Avaliações - FIAP\2º Ano\2º Semestre\.Net\.Net\Controllers\AndarEndpoints.csutf-8

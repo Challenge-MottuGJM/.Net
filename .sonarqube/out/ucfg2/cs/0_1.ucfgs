@@ -1,0 +1,3804 @@
+‚
+6EasyFinder.Controllers.BlocoEndpoints.BlocoEndpoints()â
+C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\BlocoEndpoints.cs ("0*h
+0L
+J
+
+%0void"object.Object()*+)'
+%EasyFinder.Controllers.BlocoEndpoints"
+implicit returnB)'
+%EasyFinder.Controllers.BlocoEndpointsHX`‚
+6EasyFinder.Controllers.AndarEndpoints.AndarEndpoints()â
+C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\AndarEndpoints.cs ("0*h
+0L
+J
+
+%0void"object.Object()*+)'
+%EasyFinder.Controllers.AndarEndpoints"
+implicit returnB)'
+%EasyFinder.Controllers.AndarEndpointsHX`‚
+6EasyFinder.Controllers.PatioEndpoints.PatioEndpoints()â
+C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\PatioEndpoints.cs ("0*h
+0L
+J
+
+%0void"object.Object()*+)'
+%EasyFinder.Controllers.PatioEndpoints"
+implicit returnB)'
+%EasyFinder.Controllers.PatioEndpointsHX`›
+4EasyFinder.Controllers.MotoEndpoints.MotoEndpoints()à
+~C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\MotoEndpoints.cs	 	("0*g
+0K
+I
+
+%0void"object.Object()**(&
+$EasyFinder.Controllers.MotoEndpoints"
+implicit returnB(&
+$EasyFinder.Controllers.MotoEndpointsHX`›
+4EasyFinder.Controllers.VagaEndpoints.VagaEndpoints()à
+~C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\VagaEndpoints.cs ("0*g
+0K
+I
+
+%0void"object.Object()**(&
+$EasyFinder.Controllers.VagaEndpoints"
+implicit returnB(&
+$EasyFinder.Controllers.VagaEndpointsHX`˚
+'EasyFinder.Migrations.initial.initial()ë
+ÜC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Migrations\20250523032217_initial.cs ( "0*è
+0s
+q
+
+%0void">Microsoft.EntityFrameworkCore.Migrations.Migration.Migration()*#!
+EasyFinder.Migrations.initial"
+implicit returnB!
+EasyFinder.Migrations.initialHX`ú
+EasyFinder.Model.Andar.Andar()z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs ("0*Y
+0=
+;
+
+%0void"object.Object()*
+EasyFinder.Model.Andar"
+implicit returnB
+EasyFinder.Model.AndarHX`ú
+EasyFinder.Model.Bloco.Bloco()z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs ("0*Y
+0=
+;
+
+%0void"object.Object()*
+EasyFinder.Model.Bloco"
+implicit returnB
+EasyFinder.Model.BlocoHX`È
+NEasyFinder.Model.Dto.SearchDto<T>.SearchDto(EasyFinder.Model.Dto.SearchDto<T>)Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs ("0*d
+0H
+F
+
+%0void"object.Object()*'%#
+!EasyFinder.Model.Dto.SearchDto<T>"
+implicit returnB%#
+!EasyFinder.Model.Dto.SearchDto<T>X`Ì
+*EasyFinder.Model.Dto.SearchDto<T>.term.getÇ
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs$ (("0*ã
+0( ((‡
+›
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs$ ((
+%retstring?"__id*æ
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs$ ((7*5#
+!EasyFinder.Model.Dto.SearchDto<T>"
+termstring"ò
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs$ ((
+
+%retstring?B%#
+!EasyFinder.Model.Dto.SearchDto<T>H`ˇ
++EasyFinder.Model.Dto.SearchDto<T>.term.initÇ
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs$ (("0*á
+0( ((⁄
+◊
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs$ ((5#
+!EasyFinder.Model.Dto.SearchDto<T>"
+termstring"__id*
+
+valuestring"ö
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs$ ((
+implicit return:
+valuestringB%#
+!EasyFinder.Model.Dto.SearchDto<T>HX`Â
+*EasyFinder.Model.Dto.SearchDto<T>.page.getÇ
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs/ (3"0*É
+03 (3€
+ÿ
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs/ (3
+%retint?"__id*º
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs/ (35*3#
+!EasyFinder.Model.Dto.SearchDto<T>"
+pageint?"ï
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs/ (3
+
+%retint?B%#
+!EasyFinder.Model.Dto.SearchDto<T>H`˘
++EasyFinder.Model.Dto.SearchDto<T>.page.initÇ
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs/ (3"0*É
+03 (3÷
+”
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs/ (33#
+!EasyFinder.Model.Dto.SearchDto<T>"
+pageint?"__id*
+
+valueint?"ö
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs/ (3
+implicit return:
+valueint?B%#
+!EasyFinder.Model.Dto.SearchDto<T>HX`
+0EasyFinder.Model.Dto.SearchDto<T>.totalItems.getÇ
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs9 (C"0*Ü
+0C (Cﬂ
+‹
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs9 (C
+%retint"__id*¡
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs9 (C:*8#
+!EasyFinder.Model.Dto.SearchDto<T>"
+
+totalItemsint"î
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs9 (C
+
+%retintB%#
+!EasyFinder.Model.Dto.SearchDto<T>HX`Ç
+1EasyFinder.Model.Dto.SearchDto<T>.totalItems.initÇ
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs9 (C"0*á
+0C (C⁄
+◊
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs9 (C8#
+!EasyFinder.Model.Dto.SearchDto<T>"
+
+totalItemsint"__id*
+
+valueint"ö
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs9 (C
+implicit return:
+valueintB%#
+!EasyFinder.Model.Dto.SearchDto<T>HX`ø
+*EasyFinder.Model.Dto.SearchDto<T>.data.getÇ
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.csM (Q"0*›
+0Q (Qó
+î
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.csM (Q*
+%ret"System.Collections.Generic.List<T>"__id*⁄
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.csM (QS*Q#
+!EasyFinder.Model.Dto.SearchDto<T>"*
+data"System.Collections.Generic.List<T>"≥
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.csM (Q,
+*
+%ret"System.Collections.Generic.List<T>B%#
+!EasyFinder.Model.Dto.SearchDto<T>H`”
++EasyFinder.Model.Dto.SearchDto<T>.data.initÇ
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.csM (Q"0*ø
+0Q (Qí
+è
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.csM (QQ#
+!EasyFinder.Model.Dto.SearchDto<T>"*
+data"System.Collections.Generic.List<T>"__id*/-
++
+value"System.Collections.Generic.List<T>"ö
+Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.csM (Q
+implicit return:-+
+value"System.Collections.Generic.List<T>B%#
+!EasyFinder.Model.Dto.SearchDto<T>HX`Í
+cEasyFinder.Model.Dto.SearchDto<T>.SearchDto(string?, int?, int, System.Collections.Generic.List<T>)Ç
+xC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Dto\SearchDto.cs ("0*Í
+0É
+Ä
+ (V
+%0string"+EasyFinder.Model.Dto.SearchDto<T>.term.init*'%#
+!EasyFinder.Model.Dto.SearchDto<T>*
+
+termstring~
+|
+ (V
+
+%1int?"+EasyFinder.Model.Dto.SearchDto<T>.page.init*'%#
+!EasyFinder.Model.Dto.SearchDto<T>*
+
+pageint?â
+Ü
+ (V	
+%2int"1EasyFinder.Model.Dto.SearchDto<T>.totalItems.init*'%#
+!EasyFinder.Model.Dto.SearchDto<T>*
+
+
+totalItemsintª
+∏
+ (V(
+%3"System.Collections.Generic.List<T>"+EasyFinder.Model.Dto.SearchDto<T>.data.init*'%#
+!EasyFinder.Model.Dto.SearchDto<T>*.,
+*
+data"System.Collections.Generic.List<T>"
+implicit return:
+termstring:
+pageint?:
+
+totalItemsint:,*
+data"System.Collections.Generic.List<T>B%#
+!EasyFinder.Model.Dto.SearchDto<T>HX°
+ EasyFinder.Model.Galpao.Galpao(){
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs ("0*Z
+0>
+<
+
+%0void"object.Object()*
+EasyFinder.Model.Galpao"
+implicit returnB
+EasyFinder.Model.GalpaoHX`ú
+EasyFinder.Model.Patio.Patio()z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs ("0*Y
+0=
+;
+
+%0void"object.Object()*
+EasyFinder.Model.Patio"
+implicit returnB
+EasyFinder.Model.PatioHX`ó
+EasyFinder.Model.Vaga.Vaga()y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs ("0*X
+0<
+:
+
+%0void"object.Object()*
+EasyFinder.Model.Vaga"
+implicit returnB
+EasyFinder.Model.VagaHX`ó
+EasyFinder.Model.Moto.Moto()y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs ("0*X
+0<
+:
+
+%0void"object.Object()*
+EasyFinder.Model.Moto"
+implicit returnB
+EasyFinder.Model.MotoHX`î
+.EasyFinder.DbConfig.MottuDbContext.Andares.getÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs" (%"0*©
+0& (&∆
+√
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs" (%C
+%ret;Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Andar>"__id*Ï
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs" (%a*_$
+"EasyFinder.DbConfig.MottuDbContext"7
+Andares,Microsoft.EntityFrameworkCore.DbSet<TEntity>"–
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs" (%E
+C
+%ret;Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Andar>B&$
+"EasyFinder.DbConfig.MottuDbContextH`í
+-EasyFinder.DbConfig.MottuDbContext.Blocos.getÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs! ($"0*®
+0% (%≈
+¬
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs! ($C
+%ret;Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Bloco>"__id*Î
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs! ($`*^$
+"EasyFinder.DbConfig.MottuDbContext"6
+Blocos,Microsoft.EntityFrameworkCore.DbSet<TEntity>"–
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs! ($E
+C
+%ret;Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Bloco>B&$
+"EasyFinder.DbConfig.MottuDbContextH`ı
+ÖEasyFinder.DbConfig.MottuDbContext.MottuDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<EasyFinder.DbConfig.MottuDbContext>)Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs	 	("0*
+0	 	(*
+1*ù
+1	D 	(Sà
+Ö
+	D 	(S
+
+%0void"aMicrosoft.EntityFrameworkCore.DbContext.DbContext(Microsoft.EntityFrameworkCore.DbContextOptions)*7
+	D 	(S+)
+'Microsoft.EntityFrameworkCore.DbContext*Q
+	K 	(RE
+C
+options8Microsoft.EntityFrameworkCore.DbContextOptions<TContext>*
+2*.
+2	W 	(W"
+	V 	(W
+implicit return:O
+	 	(BC
+options8Microsoft.EntityFrameworkCore.DbContextOptions<TContext>B&$
+"EasyFinder.DbConfig.MottuDbContextHXÉ
+-EasyFinder.DbConfig.MottuDbContext.Blocos.setÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs& ()"0*ﬁ
+0* (*≠
+™
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs& ()^$
+"EasyFinder.DbConfig.MottuDbContext"6
+Blocos,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*97
+5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"û
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs& ()
+implicit return:75
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B&$
+"EasyFinder.DbConfig.MottuDbContextHX`Ö
+.EasyFinder.DbConfig.MottuDbContext.Andares.setÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs' (*"0*ﬂ
+0+ (+Æ
+´
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs' (*_$
+"EasyFinder.DbConfig.MottuDbContext"7
+Andares,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*97
+5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"û
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs' (*
+implicit return:75
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B&$
+"EasyFinder.DbConfig.MottuDbContextHX`ñ
+.EasyFinder.DbConfig.MottuDbContext.Galpoes.getÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs# (&"0*´
+0' ('«
+ƒ
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs# (&D
+%ret<Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Galpao>"__id*Ï
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs# (&a*_$
+"EasyFinder.DbConfig.MottuDbContext"7
+Galpoes,Microsoft.EntityFrameworkCore.DbSet<TEntity>"—
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs# (&F
+D
+%ret<Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Galpao>B&$
+"EasyFinder.DbConfig.MottuDbContextH`Ö
+.EasyFinder.DbConfig.MottuDbContext.Galpoes.setÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs( (+"0*ﬂ
+0, (,Æ
+´
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs( (+_$
+"EasyFinder.DbConfig.MottuDbContext"7
+Galpoes,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*97
+5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"û
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs( (+
+implicit return:75
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B&$
+"EasyFinder.DbConfig.MottuDbContextHX`í
+-EasyFinder.DbConfig.MottuDbContext.Patios.getÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs! ($"0*®
+0% (%≈
+¬
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs! ($C
+%ret;Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Patio>"__id*Î
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs! ($`*^$
+"EasyFinder.DbConfig.MottuDbContext"6
+Patios,Microsoft.EntityFrameworkCore.DbSet<TEntity>"–
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs! ($E
+C
+%ret;Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Patio>B&$
+"EasyFinder.DbConfig.MottuDbContextH`É
+-EasyFinder.DbConfig.MottuDbContext.Patios.setÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs& ()"0*ﬁ
+0* (*≠
+™
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs& ()^$
+"EasyFinder.DbConfig.MottuDbContext"6
+Patios,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*97
+5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"û
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs& ()
+implicit return:75
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B&$
+"EasyFinder.DbConfig.MottuDbContextHX`é
+,EasyFinder.DbConfig.MottuDbContext.Vagas.getÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs (""0*•
+0# (#√
+¿
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs ("B
+%ret:Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Vaga>"__id*Í
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs ("_*]$
+"EasyFinder.DbConfig.MottuDbContext"5
+Vagas,Microsoft.EntityFrameworkCore.DbSet<TEntity>"œ
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs ("D
+B
+%ret:Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Vaga>B&$
+"EasyFinder.DbConfig.MottuDbContextH`Å
+,EasyFinder.DbConfig.MottuDbContext.Motos.setÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs$ ('"0*›
+0( ((¨
+©
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs$ (']$
+"EasyFinder.DbConfig.MottuDbContext"5
+Motos,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*97
+5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"û
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs$ ('
+implicit return:75
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B&$
+"EasyFinder.DbConfig.MottuDbContextHX`é
+,EasyFinder.DbConfig.MottuDbContext.Motos.getÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs (""0*•
+0# (#√
+¿
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs ("B
+%ret:Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Moto>"__id*Í
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs ("_*]$
+"EasyFinder.DbConfig.MottuDbContext"5
+Motos,Microsoft.EntityFrameworkCore.DbSet<TEntity>"œ
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs ("D
+B
+%ret:Microsoft.EntityFrameworkCore.DbSet<EasyFinder.Model.Moto>B&$
+"EasyFinder.DbConfig.MottuDbContextH`Å
+,EasyFinder.DbConfig.MottuDbContext.Vagas.setÜ
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs$ ('"0*›
+0( ((¨
+©
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs$ (']$
+"EasyFinder.DbConfig.MottuDbContext"5
+Vagas,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__id*97
+5
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>"û
+Ü
+|C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\DbConfig\MottuDbContext.cs$ ('
+implicit return:75
+value,Microsoft.EntityFrameworkCore.DbSet<TEntity>B&$
+"EasyFinder.DbConfig.MottuDbContextHX`±
+gEasyFinder.Model.Vaga.BindAsync(Microsoft.AspNetCore.Http.HttpContext, System.Reflection.ParameterInfo)y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs) (2"0*
+0 (*
+1*◊
+1 (7∫∑
+ (+
+%0%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getûõ
+ ('
+%1string"5Microsoft.AspNetCore.Http.HttpRequest.ContentType.get*9
+ (-
++
+%0%Microsoft.AspNetCore.Http.HttpRequest2ContentType.getb
+`
+ (7
+
+%2bool"string.Contains(string)*
+ ('
+
+%1string*
+1 (6
+xml*
+2
+3*À
+2 (G∫∑
+3 (B+
+%3%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+3 (:2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getöó
+3 (G
+%4System.IO.Stream".Microsoft.AspNetCore.Http.HttpRequest.Body.get*9
+3 (B-
++
+%3%Microsoft.AspNetCore.Http.HttpRequest2Body.get≈¬
+[ (q(
+%5"System.Threading.CancellationToken"8Microsoft.AspNetCore.Http.HttpContext.RequestAborted.get*>
+[ (b2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2RequestAborted.get•
+¢
+ (r*
+%6$System.Threading.Tasks.Task<TResult>"vSystem.Xml.Linq.XDocument.LoadAsync(System.IO.Stream, System.Xml.Linq.LoadOptions, System.Threading.CancellationToken)* *$
+3 (G
+
+%4System.IO.Stream*
+I (Y2 *6
+[ (q*
+(
+%5"System.Threading.CancellationTokeng
+e
+ (r#
+xmlDocSystem.Xml.Linq.XDocument"__id*.,
+*
+%6$System.Threading.Tasks.Task<TResult>b`
+ (<,
+%7&System.Xml.Serialization.XmlSerializer"&System.Xml.Serialization.XmlSerializer’
+“
+ (<,
+%8&System.Xml.Serialization.XmlSerializer"ASystem.Xml.Serialization.XmlSerializer.XmlSerializer(System.Type)*:
+ (<.
+,
+%7&System.Xml.Serialization.XmlSerializer*
+/ (;
+	{unknown}z
+x
+ (<4
+
+serializer&System.Xml.Serialization.XmlSerializer"__id*0.
+,
+%7&System.Xml.Serialization.XmlSerializerÅ
+
+1 (F
+%9System.Xml.XmlReader"$System.Xml.Linq.XNode.CreateReader()*1
+1 (7%
+#
+xmlDocSystem.Xml.Linq.XDocument‘
+—
+ (G
+%10object"HSystem.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)*B
+ ($6
+4
+
+serializer&System.Xml.Serialization.XmlSerializer*(
+1 (F
+
+%9System.Xml.XmlReaderq
+o
+ (G@
+%ret8System.Threading.Tasks.ValueTask<EasyFinder.Model.Vaga?>"__id*
+ (G
+
+%10object*
+4*ó
+3 (>ª∏
+ ($,
+%11%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.get¨
+©
+ (>0
+%12)System.Threading.Tasks.ValueTask<TResult>"òMicrosoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync<TValue>(Microsoft.AspNetCore.Http.HttpRequest, System.Threading.CancellationToken)* *:
+ ($.
+,
+%11%Microsoft.AspNetCore.Http.HttpRequest*
+ (> ï
+í
+ (>@
+%ret8System.Threading.Tasks.ValueTask<EasyFinder.Model.Vaga?>"__id*>
+ (>2
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*
+4*]
+4 ("N
+ (B
+@
+%ret8System.Threading.Tasks.ValueTask<EasyFinder.Model.Vaga?>:<
+3 (F0
+context%Microsoft.AspNetCore.Http.HttpContext:8
+H (_,
+	parameterSystem.Reflection.ParameterInfoB"
+EasyFinder.Model.VagaHØ
+EasyFinder.Model.Vaga.Id.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs ("0*ﬂ
+0 (º
+π
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs ($
+EasyFinder.Model.Vaga"	
+Idint"__id*
+
+valueint"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs (
+implicit return:
+valueintB
+EasyFinder.Model.VagaHX`Ã	
+EasyFinder.Model.Vaga.Id.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs ("0*å
+0 (•
+¢
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*(&*$
+EasyFinder.Model.Vaga"	
+Idintí
+è
+ (
+%1"
+__annotate*GEC
+ASystem.ComponentModel.DataAnnotations.KeyAttribute.KeyAttribute()*(&*$
+EasyFinder.Model.Vaga"	
+Idintò
+ï
+ (/
+%2"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*(&*$
+EasyFinder.Model.Vaga"	
+Idint^
+\
+ ($
+EasyFinder.Model.Vaga"	
+Idint"__annotation*
+
+%0*
+
+%1*
+
+%2∑
+¥
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs (
+%retint"__id*£
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs (&*$
+EasyFinder.Model.Vaga"	
+Idint"ä
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs (
+
+%retintB
+EasyFinder.Model.VagaHX`⁄
+%EasyFinder.Model.Vaga.Numero_vaga.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs   ( "0*ë
+0 !  (!Æ
+´
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*1/*-
+EasyFinder.Model.Vaga"
+Numero_vagaint°
+û
+ ("
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*1/*-
+EasyFinder.Model.Vaga"
+Numero_vagaint]
+[
+  ((-
+EasyFinder.Model.Vaga"
+Numero_vagaint"__annotation*
+
+%0*
+
+%1¿
+Ω
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs   ( 
+%retint"__id*¨
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs   ( /*-
+EasyFinder.Model.Vaga"
+Numero_vagaint"ä
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs   ( 
+
+%retintB
+EasyFinder.Model.VagaHX`À
+"EasyFinder.Model.Vaga.Bloco_id.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs$ $("0*Ö
+0$ $(´
+®
+" "(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*.,**
+EasyFinder.Model.Vaga"
+Bloco_idintû
+õ
+# #(G
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*.,**
+EasyFinder.Model.Vaga"
+Bloco_idintZ
+X
+" $(%*
+EasyFinder.Model.Vaga"
+Bloco_idint"__annotation*
+
+%0*
+
+%1Ω
+∫
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs$ $(
+%retint"__id*©
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs$ $(,**
+EasyFinder.Model.Vaga"
+Bloco_idint"ä
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs$ $(
+
+%retintB
+EasyFinder.Model.VagaHX`¡
+%EasyFinder.Model.Vaga.Numero_vaga.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs "  (%"0*Ë
+0 &  (&≈
+¬
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs "  (%-
+EasyFinder.Model.Vaga"
+Numero_vagaint"__id*
+
+valueint"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs "  (%
+implicit return:
+valueintB
+EasyFinder.Model.VagaHX`ª
+"EasyFinder.Model.Vaga.Bloco_id.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs$ $(""0*Â
+0$# $(#¬
+ø
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs$ $("*
+EasyFinder.Model.Vaga"
+Bloco_idint"__id*
+
+valueint"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Vaga.cs$ $("
+implicit return:
+valueintB
+EasyFinder.Model.VagaHX`ñ-
+[EasyFinder.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)ë
+ÜC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Migrations\20250523032217_initial.cs  (""0*
+0 (*
+1*€)
+1 b(ÙÒ
+ (_
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"∏Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*[
+ (O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+ (	
+ANDAR*
+ (
+	{unknown}*
+ ( *
+ (
+	{unknown}*
+ ( 2˛CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)ÙÒ
+ '(_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"∏Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*[
+ (O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+ (	
+BLOCO*
+ #(
+	{unknown}*
+ '( *
+$ '(
+	{unknown}*
+ '( 2˛CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)ıÚ
+) 4(_
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"∏Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*[
+) )(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+* *(
+
+GALPAO*
++ 0(
+	{unknown}*
+) 4( *
+1 4(
+	{unknown}*
+) 4( 2˛CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)Û
+6 F(_
+%3YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"∏Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*[
+6 6(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+7 7(
+MOTO*
+8 B(
+	{unknown}*
+6 F( *
+C F(
+	{unknown}*
+6 F( 2˛CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)ÙÒ
+H T(_
+%4YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"∏Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*[
+H H(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+I I(	
+PATIO*
+J P(
+	{unknown}*
+H T( *
+Q T(
+	{unknown}*
+H T( 2˛CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)Û
+V b(_
+%5YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"∏Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*[
+V V(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+W W(
+VAGA*
+X ^(
+	{unknown}*
+V b( *
+_ b(
+	{unknown}*
+V b( 2˛CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*
+2*.
+2c	 c(	"
+c c(	
+implicit return:Y
+# (DM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB!
+EasyFinder.Migrations.initialX∑
+hEasyFinder.Model.Andar.BindAsync(Microsoft.AspNetCore.Http.HttpContext, System.Reflection.ParameterInfo)z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs* (3"0*
+0 (*
+1*◊
+1 (7∫∑
+ (+
+%0%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getûõ
+ ('
+%1string"5Microsoft.AspNetCore.Http.HttpRequest.ContentType.get*9
+ (-
++
+%0%Microsoft.AspNetCore.Http.HttpRequest2ContentType.getb
+`
+ (7
+
+%2bool"string.Contains(string)*
+ ('
+
+%1string*
+1 (6
+xml*
+2
+3*Ã
+2 (H∫∑
+3 (B+
+%3%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+3 (:2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getöó
+3 (G
+%4System.IO.Stream".Microsoft.AspNetCore.Http.HttpRequest.Body.get*9
+3 (B-
++
+%3%Microsoft.AspNetCore.Http.HttpRequest2Body.get≈¬
+[ (q(
+%5"System.Threading.CancellationToken"8Microsoft.AspNetCore.Http.HttpContext.RequestAborted.get*>
+[ (b2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2RequestAborted.get•
+¢
+ (r*
+%6$System.Threading.Tasks.Task<TResult>"vSystem.Xml.Linq.XDocument.LoadAsync(System.IO.Stream, System.Xml.Linq.LoadOptions, System.Threading.CancellationToken)* *$
+3 (G
+
+%4System.IO.Stream*
+I (Y2 *6
+[ (q*
+(
+%5"System.Threading.CancellationTokeng
+e
+ (r#
+xmlDocSystem.Xml.Linq.XDocument"__id*.,
+*
+%6$System.Threading.Tasks.Task<TResult>b`
+ (=,
+%7&System.Xml.Serialization.XmlSerializer"&System.Xml.Serialization.XmlSerializer’
+“
+ (=,
+%8&System.Xml.Serialization.XmlSerializer"ASystem.Xml.Serialization.XmlSerializer.XmlSerializer(System.Type)*:
+ (=.
+,
+%7&System.Xml.Serialization.XmlSerializer*
+/ (<
+	{unknown}z
+x
+ (=4
+
+serializer&System.Xml.Serialization.XmlSerializer"__id*0.
+,
+%7&System.Xml.Serialization.XmlSerializerÅ
+
+2 (G
+%9System.Xml.XmlReader"$System.Xml.Linq.XNode.CreateReader()*1
+2 (8%
+#
+xmlDocSystem.Xml.Linq.XDocument‘
+—
+ (H
+%10object"HSystem.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)*B
+ (%6
+4
+
+serializer&System.Xml.Serialization.XmlSerializer*(
+2 (G
+
+%9System.Xml.XmlReaderr
+p
+ (HA
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Andar?>"__id*
+ (H
+
+%10object*
+4*ò
+3 (?ª∏
+ ($,
+%11%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.get¨
+©
+ (?0
+%12)System.Threading.Tasks.ValueTask<TResult>"òMicrosoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync<TValue>(Microsoft.AspNetCore.Http.HttpRequest, System.Threading.CancellationToken)* *:
+ ($.
+,
+%11%Microsoft.AspNetCore.Http.HttpRequest*
+ (? ñ
+ì
+ (?A
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Andar?>"__id*>
+ (?2
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*
+4*^
+4 ("O
+ (C
+A
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Andar?>:<
+4 (G0
+context%Microsoft.AspNetCore.Http.HttpContext:8
+I (`,
+	parameterSystem.Reflection.ParameterInfoB"
+EasyFinder.Model.AndarH∑
+hEasyFinder.Model.Patio.BindAsync(Microsoft.AspNetCore.Http.HttpContext, System.Reflection.ParameterInfo)z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs* (3"0*
+0 (*
+1*◊
+1 (7∫∑
+ (+
+%0%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getûõ
+ ('
+%1string"5Microsoft.AspNetCore.Http.HttpRequest.ContentType.get*9
+ (-
++
+%0%Microsoft.AspNetCore.Http.HttpRequest2ContentType.getb
+`
+ (7
+
+%2bool"string.Contains(string)*
+ ('
+
+%1string*
+1 (6
+xml*
+2
+3*Ã
+2 (H∫∑
+3 (B+
+%3%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+3 (:2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getöó
+3 (G
+%4System.IO.Stream".Microsoft.AspNetCore.Http.HttpRequest.Body.get*9
+3 (B-
++
+%3%Microsoft.AspNetCore.Http.HttpRequest2Body.get≈¬
+[ (q(
+%5"System.Threading.CancellationToken"8Microsoft.AspNetCore.Http.HttpContext.RequestAborted.get*>
+[ (b2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2RequestAborted.get•
+¢
+ (r*
+%6$System.Threading.Tasks.Task<TResult>"vSystem.Xml.Linq.XDocument.LoadAsync(System.IO.Stream, System.Xml.Linq.LoadOptions, System.Threading.CancellationToken)* *$
+3 (G
+
+%4System.IO.Stream*
+I (Y2 *6
+[ (q*
+(
+%5"System.Threading.CancellationTokeng
+e
+ (r#
+xmlDocSystem.Xml.Linq.XDocument"__id*.,
+*
+%6$System.Threading.Tasks.Task<TResult>b`
+ (=,
+%7&System.Xml.Serialization.XmlSerializer"&System.Xml.Serialization.XmlSerializer’
+“
+ (=,
+%8&System.Xml.Serialization.XmlSerializer"ASystem.Xml.Serialization.XmlSerializer.XmlSerializer(System.Type)*:
+ (=.
+,
+%7&System.Xml.Serialization.XmlSerializer*
+/ (<
+	{unknown}z
+x
+ (=4
+
+serializer&System.Xml.Serialization.XmlSerializer"__id*0.
+,
+%7&System.Xml.Serialization.XmlSerializerÅ
+
+2 (G
+%9System.Xml.XmlReader"$System.Xml.Linq.XNode.CreateReader()*1
+2 (8%
+#
+xmlDocSystem.Xml.Linq.XDocument‘
+—
+ (H
+%10object"HSystem.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)*B
+ (%6
+4
+
+serializer&System.Xml.Serialization.XmlSerializer*(
+2 (G
+
+%9System.Xml.XmlReaderr
+p
+ (HA
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Patio?>"__id*
+ (H
+
+%10object*
+4*ò
+3 (?ª∏
+ ($,
+%11%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.get¨
+©
+ (?0
+%12)System.Threading.Tasks.ValueTask<TResult>"òMicrosoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync<TValue>(Microsoft.AspNetCore.Http.HttpRequest, System.Threading.CancellationToken)* *:
+ ($.
+,
+%11%Microsoft.AspNetCore.Http.HttpRequest*
+ (? ñ
+ì
+ (?A
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Patio?>"__id*>
+ (?2
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*
+4*^
+4 ("O
+ (C
+A
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Patio?>:<
+4 (G0
+context%Microsoft.AspNetCore.Http.HttpContext:8
+I (`,
+	parameterSystem.Reflection.ParameterInfoB"
+EasyFinder.Model.PatioH◊	
+EasyFinder.Model.Patio.Id.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs ("0*î
+0 (¶
+£
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*)'*%
+EasyFinder.Model.Patio"	
+Idintì
+ê
+ (
+%1"
+__annotate*GEC
+ASystem.ComponentModel.DataAnnotations.KeyAttribute.KeyAttribute()*)'*%
+EasyFinder.Model.Patio"	
+Idintô
+ñ
+ (0
+%2"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*)'*%
+EasyFinder.Model.Patio"	
+Idint_
+]
+ (%
+EasyFinder.Model.Patio"	
+Idint"__annotation*
+
+%0*
+
+%1*
+
+%2∫
+∑
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs (
+%retint"__id*•
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs ('*%
+EasyFinder.Model.Patio"	
+Idint"ã
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs (
+
+%retintB
+EasyFinder.Model.PatioHX`µ
+EasyFinder.Model.Patio.Id.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs ("0*‚
+0 (æ
+ª
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs (%
+EasyFinder.Model.Patio"	
+Idint"__id*
+
+valueint"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs (
+implicit return:
+valueintB
+EasyFinder.Model.PatioHX`È
+'EasyFinder.Model.Patio.Numero_patio.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs! !(!"0*ú
+0!" !("∞
+≠
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*31*/
+EasyFinder.Model.Patio"
+Numero_patioint£
+†
+   (#
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*31*/
+EasyFinder.Model.Patio"
+Numero_patioint_
+]
+ !()/
+EasyFinder.Model.Patio"
+Numero_patioint"__annotation*
+
+%0*
+
+%1ƒ
+¡
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs! !(!
+%retint"__id*Ø
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs! !(!1*/
+EasyFinder.Model.Patio"
+Numero_patioint"ã
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs! !(!
+
+%retintB
+EasyFinder.Model.PatioHX`…
+'EasyFinder.Model.Patio.Numero_patio.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs!# !(&"0*Ï
+0!' !('»
+≈
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs!# !(&/
+EasyFinder.Model.Patio"
+Numero_patioint"__id*
+
+valueint"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs!# !(&
+implicit return:
+valueintB
+EasyFinder.Model.PatioHX`’
+#EasyFinder.Model.Patio.Andar_id.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs% %("0*å
+0% %(¨
+©
+# #(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*/-*+
+EasyFinder.Model.Patio"
+Andar_idintü
+ú
+$ $(H
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*/-*+
+EasyFinder.Model.Patio"
+Andar_idint[
+Y
+# %(%+
+EasyFinder.Model.Patio"
+Andar_idint"__annotation*
+
+%0*
+
+%1¿
+Ω
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs% %(
+%retint"__id*´
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs% %(-*+
+EasyFinder.Model.Patio"
+Andar_idint"ã
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs% %(
+
+%retintB
+EasyFinder.Model.PatioHX`¡
+#EasyFinder.Model.Patio.Andar_id.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs% %(""0*Ë
+0%# %(#ƒ
+¡
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs% %("+
+EasyFinder.Model.Patio"
+Andar_idint"__id*
+
+valueint"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Patio.cs% %("
+implicit return:
+valueintB
+EasyFinder.Model.PatioHX`◊	
+EasyFinder.Model.Andar.Id.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs ("0*î
+0 (¶
+£
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*)'*%
+EasyFinder.Model.Andar"	
+Idintì
+ê
+ (
+%1"
+__annotate*GEC
+ASystem.ComponentModel.DataAnnotations.KeyAttribute.KeyAttribute()*)'*%
+EasyFinder.Model.Andar"	
+Idintô
+ñ
+ (0
+%2"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*)'*%
+EasyFinder.Model.Andar"	
+Idint_
+]
+ (%
+EasyFinder.Model.Andar"	
+Idint"__annotation*
+
+%0*
+
+%1*
+
+%2∫
+∑
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs (
+%retint"__id*•
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs ('*%
+EasyFinder.Model.Andar"	
+Idint"ã
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs (
+
+%retintB
+EasyFinder.Model.AndarHX`µ
+EasyFinder.Model.Andar.Id.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs ("0*‚
+0 (æ
+ª
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs (%
+EasyFinder.Model.Andar"	
+Idint"__id*
+
+valueint"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs (
+implicit return:
+valueintB
+EasyFinder.Model.AndarHX`…
+'EasyFinder.Model.Andar.Numero_andar.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs!# !(&"0*Ï
+0!' !('»
+≈
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs!# !(&/
+EasyFinder.Model.Andar"
+Numero_andarint"__id*
+
+valueint"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs!# !(&
+implicit return:
+valueintB
+EasyFinder.Model.AndarHX`È
+'EasyFinder.Model.Andar.Numero_andar.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs! !(!"0*ú
+0!" !("∞
+≠
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*31*/
+EasyFinder.Model.Andar"
+Numero_andarint£
+†
+   (#
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*31*/
+EasyFinder.Model.Andar"
+Numero_andarint_
+]
+ !()/
+EasyFinder.Model.Andar"
+Numero_andarint"__annotation*
+
+%0*
+
+%1ƒ
+¡
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs! !(!
+%retint"__id*Ø
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs! !(!1*/
+EasyFinder.Model.Andar"
+Numero_andarint"ã
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs! !(!
+
+%retintB
+EasyFinder.Model.AndarHX`’
+#EasyFinder.Model.Andar.bloco_id.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs% %("0*å
+0% %(¨
+©
+# #(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*/-*+
+EasyFinder.Model.Andar"
+bloco_idintü
+ú
+$ $(I
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*/-*+
+EasyFinder.Model.Andar"
+bloco_idint[
+Y
+# %(%+
+EasyFinder.Model.Andar"
+bloco_idint"__annotation*
+
+%0*
+
+%1¿
+Ω
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs% %(
+%retint"__id*´
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs% %(-*+
+EasyFinder.Model.Andar"
+bloco_idint"ã
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs% %(
+
+%retintB
+EasyFinder.Model.AndarHX`¡
+#EasyFinder.Model.Andar.bloco_id.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs% %(""0*Ë
+0%# %(#ƒ
+¡
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs% %("+
+EasyFinder.Model.Andar"
+bloco_idint"__id*
+
+valueint"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Andar.cs% %("
+implicit return:
+valueintB
+EasyFinder.Model.AndarHX`±
+gEasyFinder.Model.Moto.BindAsync(Microsoft.AspNetCore.Http.HttpContext, System.Reflection.ParameterInfo)y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs) (2"0*
+0 (*
+1*◊
+1 (7∫∑
+ (+
+%0%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getûõ
+ ('
+%1string"5Microsoft.AspNetCore.Http.HttpRequest.ContentType.get*9
+ (-
++
+%0%Microsoft.AspNetCore.Http.HttpRequest2ContentType.getb
+`
+ (7
+
+%2bool"string.Contains(string)*
+ ('
+
+%1string*
+1 (6
+xml*
+2
+3*À
+2 (G∫∑
+3 (B+
+%3%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+3 (:2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getöó
+3 (G
+%4System.IO.Stream".Microsoft.AspNetCore.Http.HttpRequest.Body.get*9
+3 (B-
++
+%3%Microsoft.AspNetCore.Http.HttpRequest2Body.get≈¬
+[ (q(
+%5"System.Threading.CancellationToken"8Microsoft.AspNetCore.Http.HttpContext.RequestAborted.get*>
+[ (b2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2RequestAborted.get•
+¢
+ (r*
+%6$System.Threading.Tasks.Task<TResult>"vSystem.Xml.Linq.XDocument.LoadAsync(System.IO.Stream, System.Xml.Linq.LoadOptions, System.Threading.CancellationToken)* *$
+3 (G
+
+%4System.IO.Stream*
+I (Y2 *6
+[ (q*
+(
+%5"System.Threading.CancellationTokeng
+e
+ (r#
+xmlDocSystem.Xml.Linq.XDocument"__id*.,
+*
+%6$System.Threading.Tasks.Task<TResult>b`
+ (<,
+%7&System.Xml.Serialization.XmlSerializer"&System.Xml.Serialization.XmlSerializer’
+“
+ (<,
+%8&System.Xml.Serialization.XmlSerializer"ASystem.Xml.Serialization.XmlSerializer.XmlSerializer(System.Type)*:
+ (<.
+,
+%7&System.Xml.Serialization.XmlSerializer*
+/ (;
+	{unknown}z
+x
+ (<4
+
+serializer&System.Xml.Serialization.XmlSerializer"__id*0.
+,
+%7&System.Xml.Serialization.XmlSerializerÅ
+
+1 (F
+%9System.Xml.XmlReader"$System.Xml.Linq.XNode.CreateReader()*1
+1 (7%
+#
+xmlDocSystem.Xml.Linq.XDocument‘
+—
+ (G
+%10object"HSystem.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)*B
+ ($6
+4
+
+serializer&System.Xml.Serialization.XmlSerializer*(
+1 (F
+
+%9System.Xml.XmlReaderq
+o
+ (G@
+%ret8System.Threading.Tasks.ValueTask<EasyFinder.Model.Moto?>"__id*
+ (G
+
+%10object*
+4*ó
+3 (>ª∏
+ ($,
+%11%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.get¨
+©
+ (>0
+%12)System.Threading.Tasks.ValueTask<TResult>"òMicrosoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync<TValue>(Microsoft.AspNetCore.Http.HttpRequest, System.Threading.CancellationToken)* *:
+ ($.
+,
+%11%Microsoft.AspNetCore.Http.HttpRequest*
+ (> ï
+í
+ (>@
+%ret8System.Threading.Tasks.ValueTask<EasyFinder.Model.Moto?>"__id*>
+ (>2
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*
+4*]
+4 ("N
+ (B
+@
+%ret8System.Threading.Tasks.ValueTask<EasyFinder.Model.Moto?>:<
+3 (F0
+context%Microsoft.AspNetCore.Http.HttpContext:8
+H (_,
+	parameterSystem.Reflection.ParameterInfoB"
+EasyFinder.Model.MotoH∑
+hEasyFinder.Model.Bloco.BindAsync(Microsoft.AspNetCore.Http.HttpContext, System.Reflection.ParameterInfo)z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs* (3"0*
+0 (*
+1*◊
+1 (7∫∑
+ (+
+%0%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getûõ
+ ('
+%1string"5Microsoft.AspNetCore.Http.HttpRequest.ContentType.get*9
+ (-
++
+%0%Microsoft.AspNetCore.Http.HttpRequest2ContentType.getb
+`
+ (7
+
+%2bool"string.Contains(string)*
+ ('
+
+%1string*
+1 (6
+xml*
+2
+3*Ã
+2 (H∫∑
+3 (B+
+%3%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+3 (:2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getöó
+3 (G
+%4System.IO.Stream".Microsoft.AspNetCore.Http.HttpRequest.Body.get*9
+3 (B-
++
+%3%Microsoft.AspNetCore.Http.HttpRequest2Body.get≈¬
+[ (q(
+%5"System.Threading.CancellationToken"8Microsoft.AspNetCore.Http.HttpContext.RequestAborted.get*>
+[ (b2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2RequestAborted.get•
+¢
+ (r*
+%6$System.Threading.Tasks.Task<TResult>"vSystem.Xml.Linq.XDocument.LoadAsync(System.IO.Stream, System.Xml.Linq.LoadOptions, System.Threading.CancellationToken)* *$
+3 (G
+
+%4System.IO.Stream*
+I (Y2 *6
+[ (q*
+(
+%5"System.Threading.CancellationTokeng
+e
+ (r#
+xmlDocSystem.Xml.Linq.XDocument"__id*.,
+*
+%6$System.Threading.Tasks.Task<TResult>b`
+ (>,
+%7&System.Xml.Serialization.XmlSerializer"&System.Xml.Serialization.XmlSerializer’
+“
+ (>,
+%8&System.Xml.Serialization.XmlSerializer"ASystem.Xml.Serialization.XmlSerializer.XmlSerializer(System.Type)*:
+ (>.
+,
+%7&System.Xml.Serialization.XmlSerializer*
+/ (=
+	{unknown}z
+x
+ (>4
+
+serializer&System.Xml.Serialization.XmlSerializer"__id*0.
+,
+%7&System.Xml.Serialization.XmlSerializerÅ
+
+2 (G
+%9System.Xml.XmlReader"$System.Xml.Linq.XNode.CreateReader()*1
+2 (8%
+#
+xmlDocSystem.Xml.Linq.XDocument‘
+—
+ (H
+%10object"HSystem.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)*B
+ (%6
+4
+
+serializer&System.Xml.Serialization.XmlSerializer*(
+2 (G
+
+%9System.Xml.XmlReaderr
+p
+ (HA
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Bloco?>"__id*
+ (H
+
+%10object*
+4*ò
+3 (?ª∏
+ ($,
+%11%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.get¨
+©
+ (?0
+%12)System.Threading.Tasks.ValueTask<TResult>"òMicrosoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync<TValue>(Microsoft.AspNetCore.Http.HttpRequest, System.Threading.CancellationToken)* *:
+ ($.
+,
+%11%Microsoft.AspNetCore.Http.HttpRequest*
+ (? ñ
+ì
+ (?A
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Bloco?>"__id*>
+ (?2
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*
+4*^
+4 ("O
+ (C
+A
+%ret9System.Threading.Tasks.ValueTask<EasyFinder.Model.Bloco?>:<
+4 (G0
+context%Microsoft.AspNetCore.Http.HttpContext:8
+I (`,
+	parameterSystem.Reflection.ParameterInfoB"
+EasyFinder.Model.BlocoHÃ	
+EasyFinder.Model.Moto.Id.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs ("0*å
+0 (•
+¢
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*(&*$
+EasyFinder.Model.Moto"	
+Idintí
+è
+ (
+%1"
+__annotate*GEC
+ASystem.ComponentModel.DataAnnotations.KeyAttribute.KeyAttribute()*(&*$
+EasyFinder.Model.Moto"	
+Idintò
+ï
+ (/
+%2"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*(&*$
+EasyFinder.Model.Moto"	
+Idint^
+\
+ ($
+EasyFinder.Model.Moto"	
+Idint"__annotation*
+
+%0*
+
+%1*
+
+%2∑
+¥
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs (
+%retint"__id*£
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs (&*$
+EasyFinder.Model.Moto"	
+Idint"ä
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs (
+
+%retintB
+EasyFinder.Model.MotoHX`Ø
+EasyFinder.Model.Moto.Id.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs ("0*ﬂ
+0 (º
+π
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs ($
+EasyFinder.Model.Moto"	
+Idint"__id*
+
+valueint"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs (
+implicit return:
+valueintB
+EasyFinder.Model.MotoHX`—
+ EasyFinder.Model.Moto.Status.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs   ("0*è
+0   (¨
+©
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*/-*+
+EasyFinder.Model.Moto"
+Statusstringü
+ú
+ (.
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*/-*+
+EasyFinder.Model.Moto"
+Statusstring[
+Y
+  (&+
+EasyFinder.Model.Moto"
+Statusstring"__annotation*
+
+%0*
+
+%1¡
+æ
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs   (
+%retstring"__id*™
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs   (-*+
+EasyFinder.Model.Moto"
+Statusstring"ç
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs   (
+
+%retstringB
+EasyFinder.Model.MotoH`¿
+ EasyFinder.Model.Moto.Status.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs    (#"0*È
+0 $  ($∆
+√
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs    (#+
+EasyFinder.Model.Moto"
+Statusstring"__id*
+
+valuestring"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs    (#
+implicit return:
+valuestringB
+EasyFinder.Model.MotoHX`◊	
+EasyFinder.Model.Bloco.Id.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs ("0*î
+0 (¶
+£
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*)'*%
+EasyFinder.Model.Bloco"	
+Idintì
+ê
+ (
+%1"
+__annotate*GEC
+ASystem.ComponentModel.DataAnnotations.KeyAttribute.KeyAttribute()*)'*%
+EasyFinder.Model.Bloco"	
+Idintô
+ñ
+ (0
+%2"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*)'*%
+EasyFinder.Model.Bloco"	
+Idint_
+]
+ (%
+EasyFinder.Model.Bloco"	
+Idint"__annotation*
+
+%0*
+
+%1*
+
+%2∫
+∑
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs (
+%retint"__id*•
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs ('*%
+EasyFinder.Model.Bloco"	
+Idint"ã
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs (
+
+%retintB
+EasyFinder.Model.BlocoHX`—
+ EasyFinder.Model.Moto.Modelo.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs$ $("0*è
+0$ $(¨
+©
+" "(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*/-*+
+EasyFinder.Model.Moto"
+Modelostringü
+ú
+# #("
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*/-*+
+EasyFinder.Model.Moto"
+Modelostring[
+Y
+" $(&+
+EasyFinder.Model.Moto"
+Modelostring"__annotation*
+
+%0*
+
+%1¡
+æ
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs$ $(
+%retstring"__id*™
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs$ $(-*+
+EasyFinder.Model.Moto"
+Modelostring"ç
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs$ $(
+
+%retstringB
+EasyFinder.Model.MotoH`¿
+ EasyFinder.Model.Moto.Modelo.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs$  $(#"0*È
+0$$ $($∆
+√
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs$  $(#+
+EasyFinder.Model.Moto"
+Modelostring"__id*
+
+valuestring"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs$  $(#
+implicit return:
+valuestringB
+EasyFinder.Model.MotoHX`µ
+EasyFinder.Model.Bloco.Id.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs ("0*‚
+0 (æ
+ª
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs (%
+EasyFinder.Model.Bloco"	
+Idint"__id*
+
+valueint"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs (
+implicit return:
+valueintB
+EasyFinder.Model.BlocoHX`Ù
+&EasyFinder.Model.Bloco.Letra_bloco.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs    (#"0*™
+0 $  ($≤
+Ø
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*53*1
+EasyFinder.Model.Bloco"
+Letra_blocostring•
+¢
+ ("
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*53*1
+EasyFinder.Model.Bloco"
+Letra_blocostringa
+_
+  (+1
+EasyFinder.Model.Bloco"
+Letra_blocostring"__annotation*
+
+%0*
+
+%1…
+∆
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs    (#
+%retstring"__id*±
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs    (#3*1
+EasyFinder.Model.Bloco"
+Letra_blocostring"é
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs    (#
+
+%retstringB
+EasyFinder.Model.BlocoH`Ã
+EasyFinder.Model.Moto.Marca.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs( (("0*ã
+0( ((´
+®
+& &(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*.,**
+EasyFinder.Model.Moto"
+Marcastringû
+õ
+' '(!
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*.,**
+EasyFinder.Model.Moto"
+MarcastringZ
+X
+& ((%*
+EasyFinder.Model.Moto"
+Marcastring"__annotation*
+
+%0*
+
+%1¿
+Ω
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs( ((
+%retstring"__id*©
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs( ((,**
+EasyFinder.Model.Moto"
+Marcastring"ç
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs( ((
+
+%retstringB
+EasyFinder.Model.MotoH`–
+&EasyFinder.Model.Bloco.Letra_bloco.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs %  (("0*Ò
+0 )  ()Õ
+ 
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs %  ((1
+EasyFinder.Model.Bloco"
+Letra_blocostring"__id*
+
+valuestring"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs %  ((
+implicit return:
+valuestringB
+EasyFinder.Model.BlocoHX`æ
+EasyFinder.Model.Moto.Marca.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs( ((""0*Ë
+0(# ((#≈
+¬
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs( (("*
+EasyFinder.Model.Moto"
+Marcastring"__id*
+
+valuestring"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs( (("
+implicit return:
+valuestringB
+EasyFinder.Model.MotoHX`’
+#EasyFinder.Model.Bloco.Patio_id.getz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs$ $("0*å
+0$ $(¨
+©
+" "(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*/-*+
+EasyFinder.Model.Bloco"
+Patio_idintü
+ú
+# #(H
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*/-*+
+EasyFinder.Model.Bloco"
+Patio_idint[
+Y
+" $(&+
+EasyFinder.Model.Bloco"
+Patio_idint"__annotation*
+
+%0*
+
+%1¿
+Ω
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs$ $(
+%retint"__id*´
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs$ $(-*+
+EasyFinder.Model.Bloco"
+Patio_idint"ã
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs$ $(
+
+%retintB
+EasyFinder.Model.BlocoHX`Ã
+EasyFinder.Model.Moto.Placa.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs, ,("0*ã
+0, ,(´
+®
+* *(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*.,**
+EasyFinder.Model.Moto"
+Placastringû
+õ
++ +(!
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*.,**
+EasyFinder.Model.Moto"
+PlacastringZ
+X
+* ,(%*
+EasyFinder.Model.Moto"
+Placastring"__annotation*
+
+%0*
+
+%1¿
+Ω
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs, ,(
+%retstring"__id*©
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs, ,(,**
+EasyFinder.Model.Moto"
+Placastring"ç
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs, ,(
+
+%retstringB
+EasyFinder.Model.MotoH`æ
+EasyFinder.Model.Moto.Placa.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs, ,(""0*Ë
+0,# ,(#≈
+¬
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs, ,("*
+EasyFinder.Model.Moto"
+Placastring"__id*
+
+valuestring"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs, ,("
+implicit return:
+valuestringB
+EasyFinder.Model.MotoHX`—
+ EasyFinder.Model.Moto.Chassi.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs0 0("0*è
+00 0(¨
+©
+. .(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*/-*+
+EasyFinder.Model.Moto"
+Chassistringü
+ú
+/ /("
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*/-*+
+EasyFinder.Model.Moto"
+Chassistring[
+Y
+. 0(&+
+EasyFinder.Model.Moto"
+Chassistring"__annotation*
+
+%0*
+
+%1¡
+æ
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs0 0(
+%retstring"__id*™
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs0 0(-*+
+EasyFinder.Model.Moto"
+Chassistring"ç
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs0 0(
+
+%retstringB
+EasyFinder.Model.MotoH`¡
+#EasyFinder.Model.Bloco.Patio_id.setz
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs$ $(""0*Ë
+0$# $(#ƒ
+¡
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs$ $("+
+EasyFinder.Model.Bloco"
+Patio_idint"__id*
+
+valueint"ë
+z
+pC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Bloco.cs$ $("
+implicit return:
+valueintB
+EasyFinder.Model.BlocoHX`∆
+!EasyFinder.Model.Moto.Vaga_id.gety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs4 4("0*Å
+04 4(™
+ß
+2 2(
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*-+*)
+EasyFinder.Model.Moto"
+Vaga_idintù
+ö
+3 3(F
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*-+*)
+EasyFinder.Model.Moto"
+Vaga_idintY
+W
+2 4($)
+EasyFinder.Model.Moto"
+Vaga_idint"__annotation*
+
+%0*
+
+%1º
+π
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs4 4(
+%retint"__id*®
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs4 4(+*)
+EasyFinder.Model.Moto"
+Vaga_idint"ä
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs4 4(
+
+%retintB
+EasyFinder.Model.MotoHX`¿
+ EasyFinder.Model.Moto.Chassi.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs0  0(#"0*È
+00$ 0($∆
+√
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs0  0(#+
+EasyFinder.Model.Moto"
+Chassistring"__id*
+
+valuestring"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs0  0(#
+implicit return:
+valuestringB
+EasyFinder.Model.MotoHX`π
+!EasyFinder.Model.Moto.Vaga_id.sety
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs4 4(!"0*‰
+04" 4("¡
+æ
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs4 4(!)
+EasyFinder.Model.Moto"
+Vaga_idint"__id*
+
+valueint"ê
+y
+oC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Moto.cs4 4(!
+implicit return:
+valueintB
+EasyFinder.Model.MotoHX`∏
+]EasyFinder.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)ë
+ÜC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Migrations\20250523032217_initial.csf  f($"0*
+0f f(*
+1*˚
+1h x(‰·
+h i(_
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*[
+h h(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+i i(	
+ANDAR*
+h i( 2DropTable(string, string?)‰·
+k l(_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*[
+k k(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+l l(	
+BLOCO*
+k l( 2DropTable(string, string?)Â‚
+n o(_
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*[
+n n(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+o o(
+
+GALPAO*
+n o( 2DropTable(string, string?)„‡
+q r(_
+%3YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*[
+q q(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+r r(
+MOTO*
+q r( 2DropTable(string, string?)‰·
+t u(_
+%4YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*[
+t t(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+u u(	
+PATIO*
+t u( 2DropTable(string, string?)„‡
+w x(_
+%5YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*[
+w w(O
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+x x(
+VAGA*
+w x( 2DropTable(string, string?)*
+2*.
+2y	 y(	"
+y y(	
+implicit return:Y
+f% f(FM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB!
+EasyFinder.Migrations.initialX‚	
+EasyFinder.Model.Galpao.Id.get{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs ("0*ú
+0 (ß
+§
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)**(*&
+EasyFinder.Model.Galpao"	
+Idintî
+ë
+ (
+%1"
+__annotate*GEC
+ASystem.ComponentModel.DataAnnotations.KeyAttribute.KeyAttribute()**(*&
+EasyFinder.Model.Galpao"	
+Idintö
+ó
+ (1
+%2"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)**(*&
+EasyFinder.Model.Galpao"	
+Idint`
+^
+ (&
+EasyFinder.Model.Galpao"	
+Idint"__annotation*
+
+%0*
+
+%1*
+
+%2Ω
+∫
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs (
+%retint"__id*ß
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs ((*&
+EasyFinder.Model.Galpao"	
+Idint"å
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs (
+
+%retintB
+EasyFinder.Model.GalpaoHX`Ω
+iEasyFinder.Model.Galpao.BindAsync(Microsoft.AspNetCore.Http.HttpContext, System.Reflection.ParameterInfo){
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs+ (4"0*
+0 (*
+1*◊
+1 (7∫∑
+ (+
+%0%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getûõ
+ ('
+%1string"5Microsoft.AspNetCore.Http.HttpRequest.ContentType.get*9
+ (-
++
+%0%Microsoft.AspNetCore.Http.HttpRequest2ContentType.getb
+`
+ (7
+
+%2bool"string.Contains(string)*
+ ('
+
+%1string*
+1 (6
+xml*
+2
+3*Õ
+2 (I∫∑
+3 (B+
+%3%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+3 (:2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.getöó
+3 (G
+%4System.IO.Stream".Microsoft.AspNetCore.Http.HttpRequest.Body.get*9
+3 (B-
++
+%3%Microsoft.AspNetCore.Http.HttpRequest2Body.get≈¬
+[ (q(
+%5"System.Threading.CancellationToken"8Microsoft.AspNetCore.Http.HttpContext.RequestAborted.get*>
+[ (b2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2RequestAborted.get•
+¢
+ (r*
+%6$System.Threading.Tasks.Task<TResult>"vSystem.Xml.Linq.XDocument.LoadAsync(System.IO.Stream, System.Xml.Linq.LoadOptions, System.Threading.CancellationToken)* *$
+3 (G
+
+%4System.IO.Stream*
+I (Y2 *6
+[ (q*
+(
+%5"System.Threading.CancellationTokeng
+e
+ (r#
+xmlDocSystem.Xml.Linq.XDocument"__id*.,
+*
+%6$System.Threading.Tasks.Task<TResult>b`
+ (>,
+%7&System.Xml.Serialization.XmlSerializer"&System.Xml.Serialization.XmlSerializer’
+“
+ (>,
+%8&System.Xml.Serialization.XmlSerializer"ASystem.Xml.Serialization.XmlSerializer.XmlSerializer(System.Type)*:
+ (>.
+,
+%7&System.Xml.Serialization.XmlSerializer*
+/ (=
+	{unknown}z
+x
+ (>4
+
+serializer&System.Xml.Serialization.XmlSerializer"__id*0.
+,
+%7&System.Xml.Serialization.XmlSerializerÅ
+
+3 (H
+%9System.Xml.XmlReader"$System.Xml.Linq.XNode.CreateReader()*1
+3 (9%
+#
+xmlDocSystem.Xml.Linq.XDocument‘
+—
+ (I
+%10object"HSystem.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)*B
+ (&6
+4
+
+serializer&System.Xml.Serialization.XmlSerializer*(
+3 (H
+
+%9System.Xml.XmlReaders
+q
+ (IB
+%ret:System.Threading.Tasks.ValueTask<EasyFinder.Model.Galpao?>"__id*
+ (I
+
+%10object*
+4*ô
+3 (@ª∏
+ ($,
+%11%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*>
+ (2
+0
+context%Microsoft.AspNetCore.Http.HttpContext2Request.get¨
+©
+ (@0
+%12)System.Threading.Tasks.ValueTask<TResult>"òMicrosoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync<TValue>(Microsoft.AspNetCore.Http.HttpRequest, System.Threading.CancellationToken)* *:
+ ($.
+,
+%11%Microsoft.AspNetCore.Http.HttpRequest*
+ (@ ó
+î
+ (@B
+%ret:System.Threading.Tasks.ValueTask<EasyFinder.Model.Galpao?>"__id*>
+ (@2
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*
+4*_
+4 ("P
+ (D
+B
+%ret:System.Threading.Tasks.ValueTask<EasyFinder.Model.Galpao?>:<
+5 (H0
+context%Microsoft.AspNetCore.Http.HttpContext:8
+J (a,
+	parameterSystem.Reflection.ParameterInfoB"
+EasyFinder.Model.GalpaoHª
+EasyFinder.Model.Galpao.Id.set{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs ("0*Â
+0 (¿
+Ω
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs (&
+EasyFinder.Model.Galpao"	
+Idint"__id*
+
+valueint"í
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs (
+implicit return:
+valueintB
+EasyFinder.Model.GalpaoHX`˛
+'EasyFinder.Model.Galpao.Nome_galpao.get{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs    (#"0*±
+0 $  ($≥
+∞
+ (
+%0"
+__annotate*ZXV
+TSystem.ComponentModel.DataAnnotations.Schema.ColumnAttribute.ColumnAttribute(string)*64*2
+EasyFinder.Model.Galpao"
+Nome_galpaostring¶
+£
+ ("
+%1"
+__annotate*MKI
+GSystem.ComponentModel.DescriptionAttribute.DescriptionAttribute(string)*64*2
+EasyFinder.Model.Galpao"
+Nome_galpaostringb
+`
+  (+2
+EasyFinder.Model.Galpao"
+Nome_galpaostring"__annotation*
+
+%0*
+
+%1Ã
+…
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs    (#
+%retstring"__id*≥
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs    (#4*2
+EasyFinder.Model.Galpao"
+Nome_galpaostring"è
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs    (#
+
+%retstringB
+EasyFinder.Model.GalpaoH`÷
+'EasyFinder.Model.Galpao.Nome_galpao.set{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs %  (("0*Ù
+0 )  ()œ
+Ã
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs %  ((2
+EasyFinder.Model.Galpao"
+Nome_galpaostring"__id*
+
+valuestring"í
+{
+qC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Model\Galpao.cs %  ((
+implicit return:
+valuestringB
+EasyFinder.Model.GalpaoHX`Æ2
+UEasyFinder.Controllers.VagaEndpoints.Map(Microsoft.AspNetCore.Builder.WebApplication)à
+~C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\VagaEndpoints.cs	 	("0*
+0	 	(*
+1*î/
+1 D(T¶
+£
+ (*4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder"ÄMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGroup(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string)* *@
+ (4
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+! ()
+
+/vagas&$
+ (;
+%1string[]"string[]Ä
+~
+4 (:
+
+%2void",System.Array.SetValue(object?, params int[])*
+ (;
+
+%1string[]*
+4 (:
+Vaga*2 ô
+ñ
+ (;4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder"lMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithTags<TBuilder>(TBuilder, params string[])* *B
+ (*6
+4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (;
+
+%1string[]Ü
+É
+ (;7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder"__id*86
+4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder“
+œ
+ ()6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (
+/*
+ ((
+	{unknown}°
+û
+ (26
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ ()8
+6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+ (1
+Retorna todos as vagasê
+ç
+ (g6
+%60Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (28
+6
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder*ê
+ (fÉÄ
+~Retorna todos as vagas cadastrados no banco de dados, mesmo que s√≥ seja encontrado uma vaga, ele ainda vai retornar uma lista÷
+”
+ (
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (	
+/{id}*
+ (	
+	{unknown}°
+û
+ (.6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (
+8
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+ (-
+Busca uma vaga pelo IDÄ
+˝
+ (H6
+%90Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (.8
+6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ä
+ (Gtr
+pRetorna os dados de uma vaga espec√≠fico com base no ID informado. Caso o ID n√£o exista, retorna 404 Not Found.‘
+—
+  %(
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder"êMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPost(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+   (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+   (
+/*
+  %(	
+	{unknown}°
+û
+  &(,7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+  %(
+9
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder*$
+& &(+
+Insere uma nova vagaÔ
+Ï
+  '(x7
+%120Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+  &(,9
+7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder*n
+' '(wb`
+^Adiciona uma nova vaga ao banco de dados com base nos dados enviados no corpo da requisi√ß√£o.◊
+‘
+* 3(
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPut(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+* *(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+* *(	
+/{id}*
+* 3(	
+	{unknown}®
+•
+* 4(37
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+* 3(
+9
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder*+
+4 4(2
+Atualiza uma vaga existenteÉ
+Ä
+* 6(H7
+%150Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+* 4(39
+7
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Å
+5 6(Gus
+qAtualiza os dados de uma vaga j√° cadastrado, identificado pelo ID. Caso o ID n√£o exista, retorna 404 Not Found.⁄
+◊
+9 A(
+7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder"íMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+9 9(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+9 9(	
+/{id}*
+9! A(	
+	{unknown}ú
+ô
+9 B('7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+9 A(
+9
+7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder*
+B B(&
+Remove uma vagaÜ
+É
+9 D(S7
+%180Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+9 B('9
+7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ñ
+C D(Rxv
+tRemove uma vaga do banco de dados com base no ID informado. Caso a vaga n√£o seja encontrado, retorna 404 Not Found.*
+2*.
+2E E("
+E E(
+implicit return:>
+	 	(-2
+app+Microsoft.AspNetCore.Builder.WebApplicationB("&
+$EasyFinder.Controllers.VagaEndpointsHXΩ2
+VEasyFinder.Controllers.BlocoEndpoints.Map(Microsoft.AspNetCore.Builder.WebApplication)â
+C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\BlocoEndpoints.cs
+ 
+("0*
+0
+ 
+(*
+1*†/
+1 F(Uß
+§
+ (+4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder"ÄMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGroup(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string)* *@
+ (4
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+! (*	
+/blocos&$
+ (=
+%1string[]"string[]Å
+
+5 (<
+
+%2void",System.Array.SetValue(object?, params int[])*
+ (=
+
+%1string[]*
+5 (<	
+Bloco*2 ô
+ñ
+ (=4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder"lMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithTags<TBuilder>(TBuilder, params string[])* *B
+ (+6
+4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (=
+
+%1string[]Ü
+É
+ (=7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder"__id*86
+4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder“
+œ
+ (*6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (
+/*
+ ()
+	{unknown}°
+û
+ (26
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (*8
+6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+ (1
+Retorna todos os blocoë
+é
+ (g6
+%60Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (28
+6
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder*ë
+ (fÑÅ
+Retorna todos os blocos cadastrados no banco de dados, mesmo que s√≥ seja encontrado um bloco, ele ainda vai retornar uma lista÷
+”
+ (
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (	
+/{id}*
+ (	
+	{unknown}°
+û
+ (.6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (
+8
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+ (-
+Busca um bloco pelo IDÄ
+˝
+ (H6
+%90Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (.8
+6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ä
+ (Gtr
+pRetorna os dados de um bloco espec√≠fico com base no ID informado. Caso o ID n√£o exista, retorna 404 Not Found.‘
+—
+! &(
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder"êMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPost(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+! !(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+! !(
+/*
+! &(	
+	{unknown}°
+û
+! '(,7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+! &(
+9
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder*$
+' '(+
+Insere um novo blocoÔ
+Ï
+! ((x7
+%120Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+! '(,9
+7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder*n
+( ((wb`
+^Adiciona um novo bloco ao banco de dados com base nos dados enviados no corpo da requisi√ß√£o.◊
+‘
++ 4(
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPut(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
++ +(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
++ +(	
+/{id}*
++ 4(	
+	{unknown}®
+•
++ 5(37
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
++ 4(
+9
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder*+
+5 5(2
+Atualiza um bloco existenteÉ
+Ä
++ 7(H7
+%150Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
++ 5(39
+7
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Å
+6 7(Gus
+qAtualiza os dados de um bloco j√° cadastrado, identificado pelo ID. Caso o ID n√£o exista, retorna 404 Not Found.‚
+ﬂ
+: C(7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder"íMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+: :(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+: :('
+/deletar/{id}*
+:) C(
+	{unknown}ú
+ô
+: D('7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+: C(9
+7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder*
+D D(&
+Remove um blocoá
+Ñ
+: F(T7
+%180Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+: D('9
+7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ö
+E F(Syw
+uRemove um bloco do banco de dados com base no ID informado. Caso o bloco n√£o seja encontrado, retorna 404 Not Found.*
+2*.
+2G G("
+G G(
+implicit return:>
+
+ 
+(-2
+app+Microsoft.AspNetCore.Builder.WebApplicationB)"'
+%EasyFinder.Controllers.BlocoEndpointsHX2
+WEasyFinder.Controllers.GalpaoEndpoints.Map(Microsoft.AspNetCore.Builder.WebApplication)ã
+ÄC:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\GalpaoEndpoints.cs	 	("0*
+0	 	(*
+1*œ/
+1 E(V®
+•
+ (,4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder"ÄMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGroup(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string)* *@
+ (4
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+! (+
+
+/galpoes&$
+ (?
+%1string[]"string[]Ñ
+Å
+6 (>
+
+%2void",System.Array.SetValue(object?, params int[])*
+ (?
+
+%1string[]*
+6 (>	
+Galp√£o*2 ô
+ñ
+ (?4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder"lMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithTags<TBuilder>(TBuilder, params string[])* *B
+ (,6
+4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (?
+
+%1string[]Ü
+É
+ (?7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder"__id*86
+4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder“
+œ
+ (+6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (
+/*
+ (*
+	{unknown}§
+°
+ (46
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (+8
+6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder*)
+ (3
+Retorna todos os galp√µesñ
+ì
+ (h6
+%60Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (48
+6
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder*ñ
+ (gâÜ
+ÉRetorna todos os galp√µes cadastrados no banco de dados, mesmo que s√≥ seja encontrado um galp√£o, ele ainda vai retornar uma lista÷
+”
+ (
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (	
+/{id}*
+ (	
+	{unknown}£
+†
+ (/6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (
+8
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder*(
+ (.
+Busca um galp√£o pelo IDÇ
+ˇ
+ (H6
+%90Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (/8
+6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ç
+ (Gvt
+rRetorna os dados de um galp√£o espec√≠fico com base no ID informado. Caso o ID n√£o exista, retorna 404 Not Found.€
+ÿ
+  %(7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder"êMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPost(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+   (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+   ( 
+
+/inserir*
+ " %(
+	{unknown}£
+†
+  &(17
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+  %(9
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+& &(0
+Insere um novo galp√£oÒ
+Ó
+  '(}7
+%120Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+  &(19
+7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder*p
+' '(|db
+`Adiciona um novo galp√£o ao banco de dados com base nos dados enviados no corpo da requisi√ß√£o.·
+ﬁ
+* 3(
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPut(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+* *(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+* *(&
+/atualizar/{id}*
+*( 3(	
+	{unknown}™
+ß
+* 4(47
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+* 3(
+9
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder*-
+4 4(3!
+Atualiza um galp√£o existenteÖ
+Ç
+* 6(H7
+%150Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+* 4(49
+7
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder*É
+5 6(Gwu
+sAtualiza os dados de um galp√£o j√° cadastrado, identificado pelo ID. Caso o ID n√£o exista, retorna 404 Not Found.‚
+ﬂ
+9 B(7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder"íMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+9 9(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+9 9('
+/deletar/{id}*
+9) B(
+	{unknown}û
+õ
+9 C((7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+9 B(9
+7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder*!
+C C('
+Remove um galp√£oã
+à
+9 E(U7
+%180Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+9 C((9
+7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder*â
+D E(T}{
+yRemove um galp√£o do banco de dados com base no ID informado. Caso o galp√£o n√£o seja encontrado, retorna 404 Not Found.*
+2*.
+2F F("
+F F(
+implicit return:>
+	 	(-2
+app+Microsoft.AspNetCore.Builder.WebApplicationB*"(
+&EasyFinder.Controllers.GalpaoEndpointsHXæ2
+VEasyFinder.Controllers.PatioEndpoints.Map(Microsoft.AspNetCore.Builder.WebApplication)â
+C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\PatioEndpoints.cs	 	("0*
+0	 	(*
+1*°/
+1 E(Uß
+§
+ (+4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder"ÄMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGroup(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string)* *@
+ (4
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+! (*	
+/patios&$
+ (=
+%1string[]"string[]Å
+
+5 (<
+
+%2void",System.Array.SetValue(object?, params int[])*
+ (=
+
+%1string[]*
+5 (<	
+Patio*2 ô
+ñ
+ (=4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder"lMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithTags<TBuilder>(TBuilder, params string[])* *B
+ (+6
+4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (=
+
+%1string[]Ü
+É
+ (=7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder"__id*86
+4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder“
+œ
+ (*6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (
+/*
+ ()
+	{unknown}¢
+ü
+ (36
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (*8
+6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder*'
+ (2
+Retorna todos os patiosë
+é
+ (g6
+%60Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (38
+6
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder*ë
+ (fÑÅ
+Retorna todos os patios cadastrados no banco de dados, mesmo que s√≥ seja encontrado um patio, ele ainda vai retornar uma lista÷
+”
+ (
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (	
+/{id}*
+ (	
+	{unknown}°
+û
+ (.6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (
+8
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+ (-
+Busca um patio pelo IDÄ
+˝
+ (H6
+%90Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (.8
+6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ä
+ (Gtr
+pRetorna os dados de um patio espec√≠fico com base no ID informado. Caso o ID n√£o exista, retorna 404 Not Found.‘
+—
+  %(
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder"êMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPost(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+   (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+   (
+/*
+  %(	
+	{unknown}°
+û
+  &(,7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+  %(
+9
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder*$
+& &(+
+Insere um novo patioÔ
+Ï
+  '(x7
+%120Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+  &(,9
+7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder*n
+' '(wb`
+^Adiciona um novo patio ao banco de dados com base nos dados enviados no corpo da requisi√ß√£o.◊
+‘
+* 3(
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPut(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+* *(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+* *(	
+/{id}*
+* 3(	
+	{unknown}®
+•
+* 4(37
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+* 3(
+9
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder*+
+4 4(2
+Atualiza um patio existenteÉ
+Ä
+* 6(H7
+%150Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+* 4(39
+7
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Å
+5 6(Gus
+qAtualiza os dados de um patio j√° cadastrado, identificado pelo ID. Caso o ID n√£o exista, retorna 404 Not Found.‚
+ﬂ
+9 B(7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder"íMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+9 9(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+9 9('
+/deletar/{id}*
+9) B(
+	{unknown}ú
+ô
+9 C('7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+9 B(9
+7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder*
+C C(&
+Remove um patioá
+Ñ
+9 E(T7
+%180Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+9 C('9
+7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ö
+D E(Syw
+uRemove um patio do banco de dados com base no ID informado. Caso o patio n√£o seja encontrado, retorna 404 Not Found.*
+2*.
+2F F("
+F F(
+implicit return:>
+	 	(-2
+app+Microsoft.AspNetCore.Builder.WebApplicationB)"'
+%EasyFinder.Controllers.PatioEndpointsHX√2
+VEasyFinder.Controllers.AndarEndpoints.Map(Microsoft.AspNetCore.Builder.WebApplication)â
+C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\AndarEndpoints.cs	 	("0*
+0	 	(*
+1*¶/
+1 E(U®
+•
+ (,4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder"ÄMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGroup(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string)* *@
+ (4
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+! (+
+
+/andares&$
+ (>
+%1string[]"string[]Å
+
+6 (=
+
+%2void",System.Array.SetValue(object?, params int[])*
+ (>
+
+%1string[]*
+6 (=	
+Andar*2 ô
+ñ
+ (>4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder"lMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithTags<TBuilder>(TBuilder, params string[])* *B
+ (,6
+4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (>
+
+%1string[]Ü
+É
+ (>7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder"__id*86
+4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder“
+œ
+ (+6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (
+/*
+ (*
+	{unknown}£
+†
+ (46
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (+8
+6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder*(
+ (3
+Retorna todos os andaresî
+ë
+ (g6
+%60Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (48
+6
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder*î
+ (fáÑ
+ÅRetorna todos os andares  cadastrados no banco de dados, mesmo que s√≥ seja encontrado um andar, ele ainda vai retornar uma lista÷
+”
+ (
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (	
+/{id}*
+ (	
+	{unknown}°
+û
+ (.6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (
+8
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+ (-
+Busca um andar pelo IDÄ
+˝
+ (H6
+%90Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (.8
+6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ä
+ (Gtr
+pRetorna os dados de um andar espec√≠fico com base no ID informado. Caso o ID n√£o exista, retorna 404 Not Found.‘
+—
+  %(
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder"êMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPost(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+   (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+   (
+/*
+  %(	
+	{unknown}°
+û
+  &(,7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+  %(
+9
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder*$
+& &(+
+Insere um novo andarÔ
+Ï
+  '(x7
+%120Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+  &(,9
+7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder*n
+' '(wb`
+^Adiciona um novo andar ao banco de dados com base nos dados enviados no corpo da requisi√ß√£o.◊
+‘
+* 3(
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPut(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+* *(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+* *(	
+/{id}*
+* 3(	
+	{unknown}®
+•
+* 4(37
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+* 3(
+9
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder*+
+4 4(2
+Atualiza um andar existenteÉ
+Ä
+* 6(H7
+%150Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+* 4(39
+7
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Å
+5 6(Gus
+qAtualiza os dados de um andar j√° cadastrado, identificado pelo ID. Caso o ID n√£o exista, retorna 404 Not Found.‚
+ﬂ
+9 B(7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder"íMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+9 9(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+9 9('
+/deletar/{id}*
+9) B(
+	{unknown}ú
+ô
+9 C('7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+9 B(9
+7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder*
+C C(&
+Remove um andará
+Ñ
+9 E(T7
+%180Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+9 C('9
+7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ö
+D E(Syw
+uRemove um andar do banco de dados com base no ID informado. Caso o andar n√£o seja encontrado, retorna 404 Not Found.*
+2*.
+2F F("
+F F(
+implicit return:>
+	 	(-2
+app+Microsoft.AspNetCore.Builder.WebApplicationB)"'
+%EasyFinder.Controllers.AndarEndpointsHX‹[
+UEasyFinder.Controllers.MotoEndpoints.Map(Microsoft.AspNetCore.Builder.WebApplication)à
+~C:\Users\mathe\OneDrive\√Årea de Trabalho\FIAP\Avalia√ß√µes - FIAP\2¬∫ Ano\2¬∫ Semestre\.Net\.Net\Controllers\MotoEndpoints.cs ("0*
+0 (*
+1*æX
+1	 ü(T¶
+£
+ (*4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder"ÄMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGroup(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string)* *@
+ (4
+2
+app+Microsoft.AspNetCore.Builder.WebApplication*
+! ()
+
+/motos&$
+ (;
+%1string[]"string[]Ä
+~
+4 (:
+
+%2void",System.Array.SetValue(object?, params int[])*
+ (;
+
+%1string[]*
+4 (:
+Moto*2 ô
+ñ
+ (;4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder"lMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithTags<TBuilder>(TBuilder, params string[])* *B
+ (*6
+4
+%0.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (;
+
+%1string[]Ü
+É
+ (;7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder"__id*86
+4
+%3.Microsoft.AspNetCore.Routing.RouteGroupBuilder“
+œ
+ ()6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (
+/*
+ ((
+	{unknown}°
+û
+ (26
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ ()8
+6
+%40Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+ (1
+Retorna todas as motosê
+ç
+ (g6
+%60Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (28
+6
+%50Microsoft.AspNetCore.Builder.RouteHandlerBuilder*ê
+ (fÉÄ
+~Retorna todas as motos cadastrados no banco de dados, mesmo que s√≥ seja encontrado uma vaga, ele ainda vai retornar uma lista÷
+”
+ (
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+ (9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+ (	
+/{id}*
+ (	
+	{unknown}°
+û
+ (.6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *D
+ (
+8
+6
+%70Microsoft.AspNetCore.Builder.RouteHandlerBuilder*&
+ (-
+Busca uma vaga pelo IDÄ
+˝
+ (H6
+%90Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *D
+ (.8
+6
+%80Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ä
+ (Gtr
+pRetorna os dados de uma vaga espec√≠fico com base no ID informado. Caso o ID n√£o exista, retorna 404 Not Found.‚
+ﬂ
+" )(
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+" "(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder* 
+" "('
+/status/{status}*
+") )(	
+	{unknown}ß
+§
+" *(27
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+" )(
+9
+7
+%100Microsoft.AspNetCore.Builder.RouteHandlerBuilder**
+* *(1
+Busca uma vaga pelo StatusÜ
+É
+" ,(H7
+%120Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+" *(29
+7
+%110Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ñ
++ ,(Gxv
+tRetorna os dados de uma vaga espec√≠fico com base no Status informado. Caso o ID n√£o exista, retorna 404 Not Found.‚
+ﬂ
+/ 6(
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+/ /(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder* 
+/ /('
+/modelo/{modelo}*
+/) 6(	
+	{unknown}ß
+§
+/ 7(27
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+/ 6(
+9
+7
+%130Microsoft.AspNetCore.Builder.RouteHandlerBuilder**
+7 7(1
+Busca uma vaga pelo modeloÜ
+É
+/ 9(H7
+%150Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+/ 7(29
+7
+%140Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ñ
+8 9(Gxv
+tRetorna os dados de uma vaga espec√≠fico com base no modelo informado. Caso o ID n√£o exista, retorna 404 Not Found.‡
+›
+< C(
+7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+< <(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+< <(%
+/placa/{placa}*
+<' C(	
+	{unknown}¶
+£
+< D(17
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+< C(
+9
+7
+%160Microsoft.AspNetCore.Builder.RouteHandlerBuilder*)
+D D(0
+Busca uma vaga pela placaÖ
+Ç
+< F(H7
+%180Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+< D(19
+7
+%170Microsoft.AspNetCore.Builder.RouteHandlerBuilder*É
+E F(Gwu
+sRetorna os dados de uma vaga espec√≠fico com base na placa informado. Caso o ID n√£o exista, retorna 404 Not Found.Ÿ
+÷
+I Y(7
+%190Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+I I(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+I I(	
+/search*
+I  Y(
+	{unknown}Ø
+¨
+I Z(>7
+%200Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+I Y(9
+7
+%190Microsoft.AspNetCore.Builder.RouteHandlerBuilder*2
+Z Z(=&$
+"Busca paginada de motos por modeloê
+ç
+I \(O7
+%210Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+I Z(>9
+7
+%200Microsoft.AspNetCore.Builder.RouteHandlerBuilder*é
+[ \(NÅ
+}Retorna uma lista paginada de motos cujo modelo contenha o termo informado. Aceita par√¢metros opcionais de modelo e p√°gina.‹
+Ÿ
+_ l(7
+%220Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapGet(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+_ _(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+_ _(!
+
+/paginadas*
+_# l(
+	{unknown}§
+°
+_ m(37
+%230Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+_ l(9
+7
+%220Microsoft.AspNetCore.Builder.RouteHandlerBuilder*'
+m m(2
+Retorna motos paginadasï
+í
+_ o(n7
+%240Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+_ m(39
+7
+%230Microsoft.AspNetCore.Builder.RouteHandlerBuilder*ì
+n o(mÜÉ
+ÄRetorna todos os registros de motos paginados. Cada p√°gina retorna um n√∫mero fixo de registros (10 por p√°gina neste exemplo).‘
+—
+s x(
+7
+%250Microsoft.AspNetCore.Builder.RouteHandlerBuilder"êMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPost(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+s s(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+s s(
+/*
+s x(	
+	{unknown}°
+û
+s y(,7
+%260Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *E
+s x(
+9
+7
+%250Microsoft.AspNetCore.Builder.RouteHandlerBuilder*$
+y y(+
+Insere uma nova motoÔ
+Ï
+s z(x7
+%270Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *E
+s y(,9
+7
+%260Microsoft.AspNetCore.Builder.RouteHandlerBuilder*n
+z z(wb`
+^Adiciona uma nova moto ao banco de dados com base nos dados enviados no corpo da requisi√ß√£o.Ÿ
+÷
+	~ ç(
+7
+%280Microsoft.AspNetCore.Builder.RouteHandlerBuilder"èMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapPut(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *E
+~ ~(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+~ ~(	
+/{id}*
+	~ ç(	
+	{unknown}¨
+©
+	~ é(37
+%290Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *F
+	~ ç(
+9
+7
+%280Microsoft.AspNetCore.Builder.RouteHandlerBuilder*-
+
+é é(2
+Atualiza uma moto existenteá
+Ñ
+	~ ê(H7
+%300Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *F
+	~ é(39
+7
+%290Microsoft.AspNetCore.Builder.RouteHandlerBuilder*É
+
+è ê(Gus
+qAtualiza os dados de uma moto j√° cadastrado, identificado pelo ID. Caso o ID n√£o exista, retorna 404 Not Found.Í
+Á
+
+ì ú(7
+%310Microsoft.AspNetCore.Builder.RouteHandlerBuilder"íMicrosoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.MapDelete(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, System.Delegate)* *G
+
+ì ì(9
+7
+group.Microsoft.AspNetCore.Routing.RouteGroupBuilder*
+
+ì ì('
+/deletar/{id}*
+
+ì) ú(
+	{unknown}¢
+ü
+
+ì ù('7
+%320Microsoft.AspNetCore.Builder.RouteHandlerBuilder"fMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithSummary<TBuilder>(TBuilder, string)* *G
+
+ì ú(9
+7
+%310Microsoft.AspNetCore.Builder.RouteHandlerBuilder*!
+
+ù ù(&
+Remove uma motoå
+â
+
+ì ü(S7
+%330Microsoft.AspNetCore.Builder.RouteHandlerBuilder"jMicrosoft.AspNetCore.Http.OpenApiRouteHandlerBuilderExtensions.WithDescription<TBuilder>(TBuilder, string)* *G
+
+ì ù('9
+7
+%320Microsoft.AspNetCore.Builder.RouteHandlerBuilder*Ü
+
+û ü(Rxv
+tRemove uma moto do banco de dados com base no ID informado. Caso a moto n√£o seja encontrado, retorna 404 Not Found.*
+2*2
+2
+† †("!
+
+† †(
+implicit return:>
+ (-2
+app+Microsoft.AspNetCore.Builder.WebApplicationB("&
+$EasyFinder.Controllers.MotoEndpointsHX

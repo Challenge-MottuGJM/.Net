@@ -1,0 +1,7 @@
+organization=gjm
+projectKey=gjm_mottu
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.66598
+dashboardUrl=https://sonarcloud.io/dashboard?id=gjm_mottu
+ceTaskId=AZjukt1LOW2QsSQS-D6s
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZjukt1LOW2QsSQS-D6s

@@ -1,0 +1,121 @@
+{
+%EasyFinder.Controllers.BlocoEndpointsobjectJ
+BlocoEndpoints()6EasyFinder.Controllers.BlocoEndpoints.BlocoEndpoints(){
+%EasyFinder.Controllers.AndarEndpointsobjectJ
+AndarEndpoints()6EasyFinder.Controllers.AndarEndpoints.AndarEndpoints()w
+$EasyFinder.Controllers.MotoEndpointsobjectG
+MotoEndpoints()4EasyFinder.Controllers.MotoEndpoints.MotoEndpoints(){
+%EasyFinder.Controllers.PatioEndpointsobjectJ
+PatioEndpoints()6EasyFinder.Controllers.PatioEndpoints.PatioEndpoints()w
+$EasyFinder.Controllers.VagaEndpointsobjectG
+VagaEndpoints()4EasyFinder.Controllers.VagaEndpoints.VagaEndpoints()1
+Programobject
+	Program()Program.Program() 
+"EasyFinder.DbConfig.MottuDbContext'Microsoft.EntityFrameworkCore.DbContextobjectì
+bMottuDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<EasyFinder.DbConfig.MottuDbContext>)…EasyFinder.DbConfig.MottuDbContext.MottuDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<EasyFinder.DbConfig.MottuDbContext>);
+
+Blocos.get-EasyFinder.DbConfig.MottuDbContext.Blocos.get;
+
+Blocos.set-EasyFinder.DbConfig.MottuDbContext.Blocos.set=
+Andares.get.EasyFinder.DbConfig.MottuDbContext.Andares.get=
+Andares.set.EasyFinder.DbConfig.MottuDbContext.Andares.set=
+Galpoes.get.EasyFinder.DbConfig.MottuDbContext.Galpoes.get=
+Galpoes.set.EasyFinder.DbConfig.MottuDbContext.Galpoes.set;
+
+Patios.get-EasyFinder.DbConfig.MottuDbContext.Patios.get;
+
+Patios.set-EasyFinder.DbConfig.MottuDbContext.Patios.set9
+	Vagas.get,EasyFinder.DbConfig.MottuDbContext.Vagas.get9
+	Vagas.set,EasyFinder.DbConfig.MottuDbContext.Vagas.set9
+	Motos.get,EasyFinder.DbConfig.MottuDbContext.Motos.get9
+	Motos.set,EasyFinder.DbConfig.MottuDbContext.Motos.setŽ
+1EasyFinder.Migrations.MottuDbContextModelSnapshot:Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshotobject¢
+6BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)hEasyFinder.Migrations.MottuDbContextModelSnapshot.BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)p
+MottuDbContextModelSnapshot()OEasyFinder.Migrations.MottuDbContextModelSnapshot.MottuDbContextModelSnapshot()ð
+EasyFinder.Migrations.initial2Microsoft.EntityFrameworkCore.Migrations.Migrationobjectœ
+=Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)[EasyFinder.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder) 
+?Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)]EasyFinder.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)š
+<BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)ZEasyFinder.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)4
+	initial()'EasyFinder.Migrations.initial.initial()¼
+EasyFinder.Model.Andarobject9Microsoft.AspNetCore.Http.IBindableFromHttpContext<TSelf>)
+Andar()EasyFinder.Model.Andar.Andar()'
+Id.getEasyFinder.Model.Andar.Id.get'
+Id.setEasyFinder.Model.Andar.Id.set;
+Numero_andar.get'EasyFinder.Model.Andar.Numero_andar.get;
+Numero_andar.set'EasyFinder.Model.Andar.Numero_andar.set3
+bloco_id.get#EasyFinder.Model.Andar.bloco_id.get3
+bloco_id.set#EasyFinder.Model.Andar.bloco_id.set¸
+EasyFinder.Model.Blocoobject9Microsoft.AspNetCore.Http.IBindableFromHttpContext<TSelf>)
+Bloco()EasyFinder.Model.Bloco.Bloco()'
+Id.getEasyFinder.Model.Bloco.Id.get'
+Id.setEasyFinder.Model.Bloco.Id.set9
+Letra_bloco.get&EasyFinder.Model.Bloco.Letra_bloco.get9
+Letra_bloco.set&EasyFinder.Model.Bloco.Letra_bloco.set3
+Patio_id.get#EasyFinder.Model.Bloco.Patio_id.get3
+Patio_id.set#EasyFinder.Model.Bloco.Patio_id.set­
+!EasyFinder.Model.Dto.SearchDto<T>objectSystem.IEquatable<T>¨
+ASearchDto(string?, int?, int, System.Collections.Generic.List<T>)cEasyFinder.Model.Dto.SearchDto<T>.SearchDto(string?, int?, int, System.Collections.Generic.List<T>):
+
+ToString(),EasyFinder.Model.Dto.SearchDto<T>.ToString()t
+'PrintMembers(System.Text.StringBuilder)IEasyFinder.Model.Dto.SearchDto<T>.PrintMembers(System.Text.StringBuilder)@
+GetHashCode()/EasyFinder.Model.Dto.SearchDto<T>.GetHashCode()D
+Equals(object?)1EasyFinder.Model.Dto.SearchDto<T>.Equals(object?)z
+*Equals(EasyFinder.Model.Dto.SearchDto<T>?)LEasyFinder.Model.Dto.SearchDto<T>.Equals(EasyFinder.Model.Dto.SearchDto<T>?):
+
+<Clone>$(),EasyFinder.Model.Dto.SearchDto<T>.<Clone>$()~
+,SearchDto(EasyFinder.Model.Dto.SearchDto<T>)NEasyFinder.Model.Dto.SearchDto<T>.SearchDto(EasyFinder.Model.Dto.SearchDto<T>)Ì
+SDeconstruct(out string?, out int?, out int, out System.Collections.Generic.List<T>)uEasyFinder.Model.Dto.SearchDto<T>.Deconstruct(out string?, out int?, out int, out System.Collections.Generic.List<T>)N
+EqualityContract.get6EasyFinder.Model.Dto.SearchDto<T>.EqualityContract.getN
+EqualityContract.set6EasyFinder.Model.Dto.SearchDto<T>.EqualityContract.set6
+term.get*EasyFinder.Model.Dto.SearchDto<T>.term.get8
+	term.init+EasyFinder.Model.Dto.SearchDto<T>.term.init6
+page.get*EasyFinder.Model.Dto.SearchDto<T>.page.get8
+	page.init+EasyFinder.Model.Dto.SearchDto<T>.page.initB
+totalItems.get0EasyFinder.Model.Dto.SearchDto<T>.totalItems.getD
+totalItems.init1EasyFinder.Model.Dto.SearchDto<T>.totalItems.init6
+data.get*EasyFinder.Model.Dto.SearchDto<T>.data.get8
+	data.init+EasyFinder.Model.Dto.SearchDto<T>.data.initÖ
+EasyFinder.Model.Galpaoobject9Microsoft.AspNetCore.Http.IBindableFromHttpContext<TSelf>,
+Galpao() EasyFinder.Model.Galpao.Galpao()(
+Id.getEasyFinder.Model.Galpao.Id.get(
+Id.setEasyFinder.Model.Galpao.Id.set:
+Nome_galpao.get'EasyFinder.Model.Galpao.Nome_galpao.get:
+Nome_galpao.set'EasyFinder.Model.Galpao.Nome_galpao.setŽ
+EasyFinder.Model.Motoobject9Microsoft.AspNetCore.Http.IBindableFromHttpContext<TSelf>&
+Moto()EasyFinder.Model.Moto.Moto()&
+Id.getEasyFinder.Model.Moto.Id.get&
+Id.setEasyFinder.Model.Moto.Id.set.
+
+Status.get EasyFinder.Model.Moto.Status.get.
+
+Status.set EasyFinder.Model.Moto.Status.set.
+
+Modelo.get EasyFinder.Model.Moto.Modelo.get.
+
+Modelo.set EasyFinder.Model.Moto.Modelo.set,
+	Marca.getEasyFinder.Model.Moto.Marca.get,
+	Marca.setEasyFinder.Model.Moto.Marca.set,
+	Placa.getEasyFinder.Model.Moto.Placa.get,
+	Placa.setEasyFinder.Model.Moto.Placa.set.
+
+Chassi.get EasyFinder.Model.Moto.Chassi.get.
+
+Chassi.set EasyFinder.Model.Moto.Chassi.set0
+Vaga_id.get!EasyFinder.Model.Moto.Vaga_id.get0
+Vaga_id.set!EasyFinder.Model.Moto.Vaga_id.set®
+EasyFinder.Model.Vagaobject9Microsoft.AspNetCore.Http.IBindableFromHttpContext<TSelf>&
+Vaga()EasyFinder.Model.Vaga.Vaga()&
+Id.getEasyFinder.Model.Vaga.Id.get&
+Id.setEasyFinder.Model.Vaga.Id.set8
+Numero_vaga.get%EasyFinder.Model.Vaga.Numero_vaga.get8
+Numero_vaga.set%EasyFinder.Model.Vaga.Numero_vaga.set2
+Bloco_id.get"EasyFinder.Model.Vaga.Bloco_id.get2
+Bloco_id.set"EasyFinder.Model.Vaga.Bloco_id.set¼
+EasyFinder.Model.Patioobject9Microsoft.AspNetCore.Http.IBindableFromHttpContext<TSelf>)
+Patio()EasyFinder.Model.Patio.Patio()'
+Id.getEasyFinder.Model.Patio.Id.get'
+Id.setEasyFinder.Model.Patio.Id.set;
+Numero_patio.get'EasyFinder.Model.Patio.Numero_patio.get;
+Numero_patio.set'EasyFinder.Model.Patio.Numero_patio.set3
+Andar_id.get#EasyFinder.Model.Patio.Andar_id.get3
+Andar_id.set#EasyFinder.Model.Patio.Andar_id.set

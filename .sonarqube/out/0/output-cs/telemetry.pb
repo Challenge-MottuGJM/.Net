@@ -1,0 +1,1 @@
+‰RsC:\Users\mathe\OneDrive\Ãrea de Trabalho\FIAP\AvaliaÃ§Ãµes - FIAP\2Âº Ano\2Âº Semestre\.Net\.Net\EasyFinder.csproj¢net9.0òCSharp13

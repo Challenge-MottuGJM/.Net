@@ -25,4 +25,4 @@ BlocoEndpoints.Map(app);
 VagaEndpoints.Map(app);
 MotoEndpoints.Map(app);
 
-app.Run();
+await app.RunAsync();

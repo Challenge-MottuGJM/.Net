@@ -6,8 +6,11 @@ using Microsoft.EntityFrameworkCore;
 namespace EasyFinder.Controllers;
 
 
-public class MotoEndpoints
+public static class MotoEndpoints
 {
+    
+    private const string Status404 = "Caso o ID não exista, retorna 404 Not Found.";
+    
     public static void Map(WebApplication app)
     {
 
@@ -28,46 +31,46 @@ public class MotoEndpoints
         })
         .WithSummary("Busca uma vaga pelo ID")
         .WithDescription("Retorna os dados de uma vaga específico com base no ID informado. " +
-                         "Caso o ID não exista, retorna 404 Not Found.");
+                         Status404);
         
         //Get por status
         group.MapGet("/status/{status}", async (string status, MottuDbContext db) =>
         {
             var motos = await db.Motos
-                .Where(m => m.Status.ToLower() == status.ToLower())
+                .Where(m => string.Equals(m.Status, status, StringComparison.OrdinalIgnoreCase))
                 .ToListAsync();
 
-            return motos.Any() ? Results.Ok(motos) : Results.NotFound();
+            return motos.Count > 0 ? Results.Ok(motos) : Results.NotFound();
         })
         .WithSummary("Busca uma vaga pelo Status")
         .WithDescription("Retorna os dados de uma vaga específico com base no Status informado. " +
-                         "Caso o ID não exista, retorna 404 Not Found.");
+                         Status404);
         
         //Get por modelo
         group.MapGet("/modelo/{modelo}", async (string modelo, MottuDbContext db) =>
         {
             var motos = await db.Motos
-                .Where(m => m.Modelo.ToLower() == modelo.ToLower())
+                .Where(m => string.Equals(m.Modelo, modelo, StringComparison.OrdinalIgnoreCase))
                 .ToListAsync();
 
-            return motos.Any() ? Results.Ok(motos) : Results.NotFound();
+            return motos.Count > 0 ? Results.Ok(motos) : Results.NotFound();
         })
         .WithSummary("Busca uma vaga pelo modelo")
         .WithDescription("Retorna os dados de uma vaga específico com base no modelo informado. " +
-                         "Caso o ID não exista, retorna 404 Not Found.");
+                         Status404);
         
         //Get por placa
         group.MapGet("/placa/{placa}", async (string placa, MottuDbContext db) =>
         {
             var motos = await db.Motos
-                .Where(m => m.Placa.ToLower() == placa.ToLower())
+                .Where(m => string.Equals(m.Placa, placa, StringComparison.OrdinalIgnoreCase))
                 .ToListAsync();
 
-            return motos.Any() ? Results.Ok(motos) : Results.NotFound();
+            return motos.Count > 0 ? Results.Ok(motos) : Results.NotFound();
         })
         .WithSummary("Busca uma vaga pela placa")
         .WithDescription("Retorna os dados de uma vaga específico com base na placa informado. " +
-                         "Caso o ID não exista, retorna 404 Not Found.");
+                         Status404);
         
         // Busca paginada por modelo
         group.MapGet("/search", async (int? page, string? modelo, MottuDbContext db) =>
@@ -141,7 +144,7 @@ public class MotoEndpoints
         })
         .WithSummary("Atualiza uma moto existente")
         .WithDescription("Atualiza os dados de uma moto já cadastrado, identificado pelo ID. " +
-                         "Caso o ID não exista, retorna 404 Not Found.");
+                         Status404);
         
         // Deletar
         group.MapDelete("/deletar/{id}", async (int id, MottuDbContext db) =>

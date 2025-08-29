@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace EasyFinder.Controllers;
 
 
-public class BlocoEndpoints
+public static class BlocoEndpoints
 {
     public static void Map(WebApplication app)
     {

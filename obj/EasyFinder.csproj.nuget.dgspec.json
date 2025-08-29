@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2tdspfProjetos\\EasyFinder\\EasyFinder\\EasyFinder.csproj": {}
+    "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\FIAP\\Avaliações - FIAP\\2º Ano\\2º Semestre\\.Net\\.Net\\EasyFinder.csproj": {}
   },
   "projects": {
-    "D:\\2tdspfProjetos\\EasyFinder\\EasyFinder\\EasyFinder.csproj": {
+    "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\FIAP\\Avaliações - FIAP\\2º Ano\\2º Semestre\\.Net\\.Net\\EasyFinder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2tdspfProjetos\\EasyFinder\\EasyFinder\\EasyFinder.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\FIAP\\Avaliações - FIAP\\2º Ano\\2º Semestre\\.Net\\.Net\\EasyFinder.csproj",
         "projectName": "EasyFinder",
-        "projectPath": "D:\\2tdspfProjetos\\EasyFinder\\EasyFinder\\EasyFinder.csproj",
+        "projectPath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\FIAP\\Avaliações - FIAP\\2º Ano\\2º Semestre\\.Net\\.Net\\EasyFinder.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "D:\\2tdspfProjetos\\EasyFinder\\EasyFinder\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\FIAP\\Avaliações - FIAP\\2º Ano\\2º Semestre\\.Net\\.Net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -54,8 +54,8 @@ dotnet run --project Mottu.csproj
 
 4. Acesse a API e a interface web:
 
-- API: `http://localhost:5144`
-- Scalar UI: `http://localhost:5144/scalar`
+- API: `http://localhost:5148`
+- Scalar UI: `http://localhost:5148/scalar`
 
 ---
 

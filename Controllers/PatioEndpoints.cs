@@ -31,6 +31,9 @@ public static class PatioEndpoints
         // Inserir
         group.MapPost("/", async (Patio patio, MottuDbContext db) =>
         {
+            if (patio == null)
+                return Results.BadRequest("Dados inválidos.");
+            
             db.Patios.Add(patio);
             await db.SaveChangesAsync();
             return Results.Created($"/Patios/{patio.Id}", patio);
@@ -42,7 +45,8 @@ public static class PatioEndpoints
         group.MapPut("/{id}", async (int id, Patio patio, MottuDbContext db) =>
         {
             var existing = await db.Patios.FindAsync(id);
-            if (existing is null) return Results.NotFound();
+            if (existing == null) 
+                return Results.NotFound();
 
             existing.Numero_patio = patio.Numero_patio;
             await db.SaveChangesAsync();
@@ -57,7 +61,8 @@ public static class PatioEndpoints
         group.MapDelete("/deletar/{id}", async (int id, MottuDbContext db) =>
             {
                 var patio = await db.Patios.FindAsync(id);
-                if (patio is null) return Results.NotFound();
+                if (patio == null) 
+                    return Results.NotFound();
 
                 db.Patios.Remove(patio);
                 await db.SaveChangesAsync();

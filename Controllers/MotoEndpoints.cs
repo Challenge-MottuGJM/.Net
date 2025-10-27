@@ -117,6 +117,9 @@ public static class MotoEndpoints
         // Inserir
         group.MapPost("/", async (Moto moto, MottuDbContext db) =>
         {
+            if (moto == null)
+                return Results.BadRequest("Dados inválidos.");
+            
             db.Motos.Add(moto);
             await db.SaveChangesAsync();
             return Results.Created($"/motos/{moto.Id}", moto);
@@ -129,7 +132,8 @@ public static class MotoEndpoints
         group.MapPut("/{id}", async (int id, Moto moto, MottuDbContext db) =>
         {
             var existing = await db.Motos.FindAsync(id);
-            if (existing is null) return Results.NotFound();
+            if (existing == null) 
+                return Results.NotFound();
 
             existing.Chassi = moto.Chassi;
             existing.Status = moto.Status;
@@ -150,7 +154,8 @@ public static class MotoEndpoints
         group.MapDelete("/deletar/{id}", async (int id, MottuDbContext db) =>
             {
                 var moto = await db.Motos.FindAsync(id);
-                if (moto is null) return Results.NotFound();
+                if (moto == null) 
+                    return Results.NotFound();
 
                 db.Motos.Remove(moto);
                 await db.SaveChangesAsync();

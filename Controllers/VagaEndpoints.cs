@@ -31,6 +31,9 @@ public static class VagaEndpoints
         // Inserir
         group.MapPost("/", async (Vaga vaga, MottuDbContext db) =>
         {
+            if (vaga == null)
+                return Results.BadRequest("Dados inválidos.");
+            
             db.Vagas.Add(vaga);
             await db.SaveChangesAsync();
             return Results.Created($"/Vagas/{vaga.Id}", vaga);
@@ -42,7 +45,8 @@ public static class VagaEndpoints
         group.MapPut("/{id}", async (int id, Vaga vaga, MottuDbContext db) =>
         {
             var existing = await db.Vagas.FindAsync(id);
-            if (existing is null) return Results.NotFound();
+            if (existing == null) 
+                return Results.NotFound();
 
             existing.Numero_vaga = vaga.Numero_vaga;
             await db.SaveChangesAsync();
@@ -57,7 +61,8 @@ public static class VagaEndpoints
         group.MapDelete("/{id}", async (int id, MottuDbContext db) =>
         {
             var vaga = await db.Vagas.FindAsync(id);
-            if (vaga is null) return Results.NotFound();
+            if (vaga == null) 
+                return Results.NotFound();
 
             db.Vagas.Remove(vaga);
             await db.SaveChangesAsync();

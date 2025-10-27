@@ -31,6 +31,9 @@ public static class GalpaoEndpoints
         // Inserir
         group.MapPost("/inserir", async (Galpao galpao, MottuDbContext db) =>
             {
+                if (galpao == null)
+                    return Results.BadRequest("Dados inválidos.");
+                
                 db.Galpoes.Add(galpao);
                 await db.SaveChangesAsync();
                 return Results.Created($"/Galpoes/{galpao.Id}", galpao);
@@ -42,7 +45,8 @@ public static class GalpaoEndpoints
         group.MapPut("/atualizar/{id}", async (int id, Galpao galpao, MottuDbContext db) =>
         {
             var existing = await db.Galpoes.FindAsync(id);
-            if (existing is null) return Results.NotFound();
+            if (existing == null) 
+                return Results.NotFound();
 
             existing.Nome_galpao = galpao.Nome_galpao;
             await db.SaveChangesAsync();
@@ -57,7 +61,8 @@ public static class GalpaoEndpoints
         group.MapDelete("/deletar/{id}", async (int id, MottuDbContext db) =>
             {
                 var galpao = await db.Galpoes.FindAsync(id);
-                if (galpao is null) return Results.NotFound();
+                if (galpao == null) 
+                    return Results.NotFound();
 
                 db.Galpoes.Remove(galpao);
                 await db.SaveChangesAsync();

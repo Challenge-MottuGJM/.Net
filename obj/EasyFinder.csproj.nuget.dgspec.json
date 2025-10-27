@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fiap\\2tdspf\\Challenge\\.Net\\.Net\\EasyFinder.csproj": {}
+    "C:\\Users\\labsfiap\\Desktop\\.Net\\EasyFinder.csproj": {}
   },
   "projects": {
-    "D:\\Fiap\\2tdspf\\Challenge\\.Net\\.Net\\EasyFinder.csproj": {
+    "C:\\Users\\labsfiap\\Desktop\\.Net\\EasyFinder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fiap\\2tdspf\\Challenge\\.Net\\.Net\\EasyFinder.csproj",
+        "projectUniqueName": "C:\\Users\\labsfiap\\Desktop\\.Net\\EasyFinder.csproj",
         "projectName": "EasyFinder",
-        "projectPath": "D:\\Fiap\\2tdspf\\Challenge\\.Net\\.Net\\EasyFinder.csproj",
-        "packagesPath": "C:\\Users\\Julio Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\Fiap\\2tdspf\\Challenge\\.Net\\.Net\\obj\\",
+        "projectPath": "C:\\Users\\labsfiap\\Desktop\\.Net\\EasyFinder.csproj",
+        "packagesPath": "C:\\Users\\labsfiap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\labsfiap\\Desktop\\.Net\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Julio Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\labsfiap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -106,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

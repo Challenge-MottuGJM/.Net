@@ -31,6 +31,9 @@ public static class AndarEndpoints
         // Inserir
         group.MapPost("/", async (Andar andar, MottuDbContext db) =>
         {
+            if (andar == null)
+                return Results.BadRequest("Dados inválidos.");
+            
             db.Andares.Add(andar);
             await db.SaveChangesAsync();
             return Results.Created($"/andares/{andar.Id}", andar);
@@ -42,12 +45,13 @@ public static class AndarEndpoints
         group.MapPut("/{id}", async (int id, Andar andar, MottuDbContext db) =>
         {
             var existing = await db.Andares.FindAsync(id);
-            if (existing is null) return Results.NotFound();
+            if (existing == null) 
+                return Results.NotFound();
 
             existing.Numero_andar = andar.Numero_andar;
             await db.SaveChangesAsync();
 
-            return Results.Ok($"Andarle com ID {id} atualizado com sucesso.");
+            return Results.Ok($"Andar com ID {id} atualizado com sucesso.");
         })
         .WithSummary("Atualiza um andar existente")
         .WithDescription("Atualiza os dados de um andar já cadastrado, identificado pelo ID. " +
@@ -57,7 +61,8 @@ public static class AndarEndpoints
         group.MapDelete("/deletar/{id}", async (int id, MottuDbContext db) =>
             {
                 var andar = await db.Andares.FindAsync(id);
-                if (andar is null) return Results.NotFound();
+                if (andar == null) 
+                    return Results.NotFound();
 
                 db.Andares.Remove(andar);
                 await db.SaveChangesAsync();

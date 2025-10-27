@@ -32,6 +32,9 @@ public static class BlocoEndpoints
         // Inserir
         group.MapPost("/", async (Bloco bloco, MottuDbContext db) =>
         {
+            if (bloco == null)
+                return Results.BadRequest("Dados inválidos.");
+            
             db.Blocos.Add(bloco);
             await db.SaveChangesAsync();
             return Results.Created($"/Blocos/{bloco.Id}", bloco);
@@ -43,7 +46,8 @@ public static class BlocoEndpoints
         group.MapPut("/{id}", async (int id, Bloco bloco, MottuDbContext db) =>
         {
             var existing = await db.Blocos.FindAsync(id);
-            if (existing is null) return Results.NotFound();
+            if (existing == null)
+                return Results.NotFound();
 
             existing.Letra_bloco = bloco.Letra_bloco;
             await db.SaveChangesAsync();
@@ -58,7 +62,8 @@ public static class BlocoEndpoints
         group.MapDelete("/deletar/{id}", async (int id, MottuDbContext db) =>
             {
                 var bloco = await db.Blocos.FindAsync(id);
-                if (bloco is null) return Results.NotFound();
+                if (bloco == null) 
+                    return Results.NotFound();
 
                 db.Blocos.Remove(bloco);
                 await db.SaveChangesAsync();

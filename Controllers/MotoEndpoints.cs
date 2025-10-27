@@ -11,20 +11,20 @@ public static class MotoEndpoints
     
     private const string Status404 = "Caso o ID não exista, retorna 404 Not Found.";
     
-    public static void Map(WebApplication app)
+    public static void Map(RouteGroupBuilder group)
     {
 
-        var group = app.MapGroup("/motos").WithTags("Moto");
+        group.MapGroup("/motos").WithTags("Moto").RequireAuthorization();
         
         // Get all
-        group.MapGet("/", async (MottuDbContext db) =>
+        group.MapGet("/motos", async (MottuDbContext db) =>
             await db.Motos.ToListAsync())
             .WithSummary("Retorna todas as motos")
             .WithDescription("Retorna todas as motos cadastrados no banco de dados, " +
                              "mesmo que só seja encontrado uma vaga, ele ainda vai retornar uma lista");
 
         // GetById
-        group.MapGet("/{id}", async (int id, MottuDbContext db) =>
+        group.MapGet("/motos/{id}", async (int id, MottuDbContext db) =>
         {
             var moto = await db.Motos.FindAsync(id);
             return moto is not null ? Results.Ok(moto) : Results.NotFound();

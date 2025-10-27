@@ -6,20 +6,20 @@ namespace EasyFinder.Controllers;
 
 public static class GalpaoEndpoints
 {
-    public static void Map(WebApplication app)
+    public static void Map(RouteGroupBuilder group)
     {
 
-        var group = app.MapGroup("/galpoes").WithTags("Galpão");
+        group.MapGroup("/galpoes").WithTags("Galpão").RequireAuthorization();
         
         //Get all
-        group.MapGet("/", async (MottuDbContext db) =>
+        group.MapGet("/galpoes", async (MottuDbContext db) =>
             await db.Galpoes.ToListAsync())
             .WithSummary("Retorna todos os galpões")
             .WithDescription("Retorna todos os galpões cadastrados no banco de dados, " +
                              "mesmo que só seja encontrado um galpão, ele ainda vai retornar uma lista");
 
         //GetById
-        group.MapGet("/{id}", async (int id, MottuDbContext db) =>
+        group.MapGet("/galpoes/{id}", async (int id, MottuDbContext db) =>
         {
             var galpao = await db.Galpoes.FindAsync(id);
             return galpao is not null ? Results.Ok(galpao) : Results.NotFound();

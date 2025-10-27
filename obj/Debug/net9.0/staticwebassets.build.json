@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "F4NlrjKwa7R/41BEzgOTIt8KIqrn8IhDfLIoV9Kkzdc=",
-  "Source": "EasyFinder",
-  "BasePath": "_content/EasyFinder",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"F4NlrjKwa7R/41BEzgOTIt8KIqrn8IhDfLIoV9Kkzdc=","Source":"EasyFinder","BasePath":"_content/EasyFinder","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

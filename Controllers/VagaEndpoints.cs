@@ -6,20 +6,20 @@ namespace EasyFinder.Controllers;
 
 public static class VagaEndpoints
 {
-    public static void Map(WebApplication app)
+    public static void Map(RouteGroupBuilder group)
     {
 
-        var group = app.MapGroup("/vagas").WithTags("Vaga");
+        group.MapGroup("/vagas").WithTags("Vaga").RequireAuthorization();
         
         //Get all
-        group.MapGet("/", async (MottuDbContext db) =>
+        group.MapGet("/vagas", async (MottuDbContext db) =>
             await db.Vagas.ToListAsync())
             .WithSummary("Retorna todos as vagas")
             .WithDescription("Retorna todos as vagas cadastrados no banco de dados, " +
                              "mesmo que só seja encontrado uma vaga, ele ainda vai retornar uma lista");
 
         //GetById
-        group.MapGet("/{id}", async (int id, MottuDbContext db) =>
+        group.MapGet("/vagas/{id}", async (int id, MottuDbContext db) =>
         {
             var vaga = await db.Vagas.FindAsync(id);
             return vaga is not null ? Results.Ok(vaga) : Results.NotFound();

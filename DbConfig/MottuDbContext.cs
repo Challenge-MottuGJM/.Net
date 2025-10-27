@@ -14,4 +14,17 @@ public class MottuDbContext :DbContext
     public DbSet<Patio> Patios { get; set; }
     public DbSet<Vaga> Vagas { get; set; }
     public DbSet<Moto> Motos { get; set; }
+    
+    public DbSet<Usuario> Usuarios { get; set; }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Usuario>(e =>
+        {
+            e.ToTable("USUARIO");
+            e.HasKey(x => x.Id);
+            e.Property(x => x.Id).HasColumnName("ID");
+            e.Property(x => x.Username).HasColumnName("USUARIO").HasMaxLength(100).IsRequired();
+            e.Property(x => x.Senha).HasColumnName("SENHA").HasMaxLength(200).IsRequired();
+        });
+    }
 }   

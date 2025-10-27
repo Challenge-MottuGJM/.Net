@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyFinder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fce1a5c4fb4c6217e9d97612afbe187a06ec87fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03abe8c8ae5765b2b7eb0b731c6338021ff5fd2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyFinder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyFinder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

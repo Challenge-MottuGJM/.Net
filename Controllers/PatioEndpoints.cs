@@ -6,20 +6,20 @@ namespace EasyFinder.Controllers;
 
 public static class PatioEndpoints
 {
-    public static void Map(WebApplication app)
+    public static void Map(RouteGroupBuilder group)
     {
 
-        var group = app.MapGroup("/patios").WithTags("Patio");
+        group.MapGroup("/patios").WithTags("Patio").RequireAuthorization();
         
         //Get all
-        group.MapGet("/", async (MottuDbContext db) =>
+        group.MapGet("/patios", async (MottuDbContext db) =>
             await db.Patios.ToListAsync())
             .WithSummary("Retorna todos os patios")
             .WithDescription("Retorna todos os patios cadastrados no banco de dados, " +
                              "mesmo que só seja encontrado um patio, ele ainda vai retornar uma lista");
 
         //GetById
-        group.MapGet("/{id}", async (int id, MottuDbContext db) =>
+        group.MapGet("/patios/{id}", async (int id, MottuDbContext db) =>
         {
             var patio = await db.Patios.FindAsync(id);
             return patio is not null ? Results.Ok(patio) : Results.NotFound();

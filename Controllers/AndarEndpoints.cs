@@ -6,20 +6,20 @@ namespace EasyFinder.Controllers;
 
 public static class AndarEndpoints
 {
-    public static void Map(WebApplication app)
+    public static void Map(RouteGroupBuilder group)
     {
 
-        var group = app.MapGroup("/andares").WithTags("Andar");
+        group.MapGroup("/andares").WithTags("Andar").RequireAuthorization();
         
         // Get all
-        group.MapGet("/", async (MottuDbContext db) =>
+        group.MapGet("/andares", async (MottuDbContext db) =>
             await db.Andares.ToListAsync())
             .WithSummary("Retorna todos os andares")
             .WithDescription("Retorna todos os andares  cadastrados no banco de dados, " +
                              "mesmo que só seja encontrado um andar, ele ainda vai retornar uma lista");
 
         // GetById
-        group.MapGet("/{id}", async (int id, MottuDbContext db) =>
+        group.MapGet("/andares/{id}", async (int id, MottuDbContext db) =>
         {
             var andar = await db.Andares.FindAsync(id);
             return andar is not null ? Results.Ok(andar) : Results.NotFound();

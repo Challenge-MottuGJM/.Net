@@ -7,20 +7,20 @@ namespace EasyFinder.Controllers;
 
 public static class BlocoEndpoints
 {
-    public static void Map(WebApplication app)
+    public static void Map(RouteGroupBuilder group)
     {
 
-        var group = app.MapGroup("/blocos").WithTags("Bloco");
+        group.MapGroup("/blocos").WithTags("Bloco").RequireAuthorization();
         
         //Get all
-        group.MapGet("/", async (MottuDbContext db) =>
+        group.MapGet("/blocos", async (MottuDbContext db) =>
             await db.Blocos.ToListAsync())
             .WithSummary("Retorna todos os bloco")
             .WithDescription("Retorna todos os blocos cadastrados no banco de dados, " +
                              "mesmo que só seja encontrado um bloco, ele ainda vai retornar uma lista");
 
         //GetById
-        group.MapGet("/{id}", async (int id, MottuDbContext db) =>
+        group.MapGet("/blocos/{id}", async (int id, MottuDbContext db) =>
         {
             var bloco = await db.Blocos.FindAsync(id);
             return bloco is not null ? Results.Ok(bloco) : Results.NotFound();

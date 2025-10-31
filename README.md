@@ -11,9 +11,7 @@
 
 ### 💡 Descrição da Solução
 
-Este projeto em **.NET 9** utiliza a abordagem de **Minimal APIs** com integração ao **Entity Framework Core** e banco de dados **Oracle**, além de interface gráfica via **Scalar UI**.
-
-A aplicação simula um sistema para controle de pátios de motos, permitindo o gerenciamento de galpões, andares, pátios, blocos, vagas e motos — com operações de CRUD e consultas paginadas e filtradas.
+Este projeto em **.NET 9** utiliza **Minimal APIs**, **Entity Framework Core** (Oracle) e interface gráfica via **Scalar UI** para um sistema de controle de pátios de motos. Permite gerenciamento completo de galpões, andares, pátios, blocos, vagas e motos, incluindo operações de CRUD, consultas paginadas/filtradas, autenticação JWT e predição automatizada de manutenção via ML.
 
 ---
 
@@ -35,7 +33,7 @@ Certifique-se de ter instalado:
 
 ```bash
 git clone https://github.com/Challenge-MottuGJM/dotnet.git
-cd Mottu
+cd .Net
 ```
 
 2. Configure a connection string em `appsettings.json`:
@@ -49,13 +47,36 @@ cd Mottu
 3. Execute o projeto:
 
 ```bash
-dotnet run --project Mottu.csproj
+dotnet run --project EasyFinder.csproj
 ```
 
-4. Acesse a API e a interface web:
+### 🔒 Autenticação e Acesso Protegido
 
-- API: `http://localhost:5148`
-- Scalar UI: `http://localhost:5148/scalar`
+1. Faça login para obter o **JWT**:
+
+   - Use Scalar UI, Postman, ou curl:
+   - Endpoint: `POST /login`
+   - Exemplo de corpo:
+
+     ```
+     { "usuario": "admin", "senha": "senha123" }
+     ```
+
+   - O login retorna um campo `"token"`. 
+   - **Copie o token retornado**.
+
+2. Para acessar endpoints protegidos:
+
+   - Vá até Scalar UI (web)
+   - Clique no ícone de cadeado (🔒) ou campo "Security" (Bearer)
+   - **Cole o token JWT** no prompt e autorize.
+   - Todos endpoints `/api/v1/...` exigem o header:
+
+     ```
+     Authorization: Bearer <token>
+     ```
+
+   - Sem token, o acesso retorna erro **401 Unauthorized**.
 
 ---
 
@@ -66,6 +87,9 @@ dotnet run --project Mottu.csproj
 - Minimal APIs
 - Scalar.AspNetCore (interface gráfica)
 - OpenAPI
+- JWT para autenticação
+- ML.NET para predição de probabilidade
+- Helpcheck para análise de saúde da API
 - C#
 
 ---
@@ -78,42 +102,55 @@ Você pode interagir com os endpoints da API usando **Scalar UI**, **Postman**, 
 
 ## 📋 Tabela de Endpoints da API
 
-| Entidade  | Método HTTP | Rota                                | Descrição                              |
-|-----------|-------------|-------------------------------------|----------------------------------------|
-| Galpões   | GET         | /galpoes                            | Retorna todos os galpões               |
-| Galpões   | GET         | /galpoes/{id}                       | Retorna um galpão por ID               |
-| Galpões   | POST        | /galpoes/inserir                    | Insere um novo galpão                  |
-| Galpões   | PUT         | /galpoes/atualizar/{id}             | Atualiza um galpão                     |
-| Galpões   | DELETE      | /galpoes/deletar/{id}               | Remove um galpão pelo ID               |
-| Andares   | GET         | /andares                            | Retorna todos os andares               |
-| Andares   | GET         | /andares/{id}                       | Retorna um andar por ID                |
-| Andares   | POST        | /andares/inserir                    | Insere um novo andar                   |
-| Andares   | PUT         | /andares/atualizar/{id}             | Atualiza um andar                      |
-| Andares   | DELETE      | /andares/deletar/{id}               | Remove um andar pelo ID                |
-| Patios    | GET         | /patios                             | Retorna todos os pátios                |
-| Patios    | GET         | /patios/{id}                        | Retorna um pátio por ID                |
-| Patios    | POST        | /patios/inserir                     | Insere um novo pátio                   |
-| Patios    | PUT         | /patios/atualizar/{id}              | Atualiza um pátio                      |
-| Patios    | DELETE      | /patios/deletar/{id}                | Remove um pátio pelo ID                |
-| Blocos    | GET         | /blocos                             | Retorna todos os blocos                |
-| Blocos    | GET         | /blocos/{id}                        | Retorna um bloco por ID                |
-| Blocos    | POST        | /blocos/inserir                     | Insere um novo bloco                   |
-| Blocos    | PUT         | /blocos/atualizar/{id}              | Atualiza um bloco                      |
-| Blocos    | DELETE      | /blocos/deletar/{id}                | Remove um bloco pelo ID                |
-| Vagas     | GET         | /vagas                              | Retorna todas as vagas                 |
-| Vagas     | GET         | /vagas/{id}                         | Retorna uma vaga por ID                |
-| Vagas     | POST        | /vagas/inserir                      | Insere uma nova vaga                   |
-| Vagas     | PUT         | /vagas/atualizar/{id}               | Atualiza uma vaga                      |
-| Vagas     | DELETE      | /vagas/deletar/{id}                 | Remove uma vaga pelo ID                |
-| Motos     | GET         | /motos                              | Retorna todas as motos                 |
-| Motos     | GET         | /motos/{id}                         | Retorna uma moto por ID                |
-| Motos     | GET         | /motos/status/{status}              | Filtra motos por status                |
-| Motos     | GET         | /motos/modelo/{modelo}              | Filtra motos por modelo                |
-| Motos     | GET         | /motos/placa/{placa}                | Filtra motos por placa                 |
-| Motos     | GET         | /motos/paginadas                    | Retorna motos paginadas (sem filtro)   |
-| Motos     | GET         | /motos/search                       | Retorna motos paginadas por modelo     |
-| Motos     | POST        | /motos/inserir                      | Insere uma nova moto                   |
-| Motos     | PUT         | /motos/atualizar/{id}               | Atualiza uma moto                      |
-| Motos     | DELETE      | /motos/deletar/{id}                 | Remove uma moto pelo ID                |
+| Entidade  | Método HTTP | Rota                                | Descrição                                     |
+|-----------|-------------|-------------------------------------|-----------------------------------------------|
+| Login     | POST        | /api/v1/login                              | Retorna o token JWT para acesso        |
+| Galpões   | GET         | /api/v1/galpoes                            | Retorna todos os galpões               |
+| Galpões   | GET         | /api/v1/galpoes/{id}                       | Retorna um galpão por ID               |
+| Galpões   | POST        | /api/v1/galpoes/inserir                    | Insere um novo galpão                  |
+| Galpões   | PUT         | /api/v1/galpoes/atualizar/{id}             | Atualiza um galpão                     |
+| Galpões   | DELETE      | /api/v1/galpoes/deletar/{id}               | Remove um galpão pelo ID               |
+| Andares   | GET         | /api/v1/andares                            | Retorna todos os andares               |
+| Andares   | GET         | /api/v1/andares/{id}                       | Retorna um andar por ID                |
+| Andares   | POST        | /api/v1/andares/inserir                    | Insere um novo andar                   |
+| Andares   | PUT         | /api/v1/andares/atualizar/{id}             | Atualiza um andar                      |
+| Andares   | DELETE      | /api/v1/andares/deletar/{id}               | Remove um andar pelo ID                |
+| Patios    | GET         | /api/v1/patios                             | Retorna todos os pátios                |
+| Patios    | GET         | /api/v1/patios/{id}                        | Retorna um pátio por ID                |
+| Patios    | POST        | /api/v1/patios/inserir                     | Insere um novo pátio                   |
+| Patios    | PUT         | /api/v1/patios/atualizar/{id}              | Atualiza um pátio                      |
+| Patios    | DELETE      | /api/v1/patios/deletar/{id}                | Remove um pátio pelo ID                |
+| Blocos    | GET         | /api/v1/blocos                             | Retorna todos os blocos                |
+| Blocos    | GET         | /api/v1/blocos/{id}                        | Retorna um bloco por ID                |
+| Blocos    | POST        | /api/v1/blocos/inserir                     | Insere um novo bloco                   |
+| Blocos    | PUT         | /api/v1/blocos/atualizar/{id}              | Atualiza um bloco                      |
+| Blocos    | DELETE      | /api/v1/blocos/deletar/{id}                | Remove um bloco pelo ID                |
+| Vagas     | GET         | /api/v1/vagas                              | Retorna todas as vagas                 |
+| Vagas     | GET         | /api/v1/vagas/{id}                         | Retorna uma vaga por ID                |
+| Vagas     | POST        | /api/v1/vagas/inserir                      | Insere uma nova vaga                   |
+| Vagas     | PUT         | /api/v1/vagas/atualizar/{id}               | Atualiza uma vaga                      |
+| Vagas     | DELETE      | /api/v1/vagas/deletar/{id}                 | Remove uma vaga pelo ID                |
+| Motos     | GET         | /api/v1/motos                              | Retorna todas as motos                 |
+| Motos     | GET         | /api/v1/motos/{id}                         | Retorna uma moto por ID                |
+| Motos     | GET         | /api/v1/motos/status/{status}              | Filtra motos por status                |
+| Motos     | GET         | /api/v1/motos/modelo/{modelo}              | Filtra motos por modelo                |
+| Motos     | GET         | /api/v1/motos/placa/{placa}                | Filtra motos por placa                 |
+| Motos     | GET         | /api/v1/motos/paginadas                    | Retorna motos paginadas (sem filtro)   |
+| Motos     | GET         | /api/v1/motos/search                       | Retorna motos paginadas por modelo     |
+| Motos     | POST        | /api/v1/motos/inserir                      | Insere uma nova moto                   |
+| Motos     | PUT         | /api/v1/motos/atualizar/{id}               | Atualiza uma moto                      |
+| Motos     | DELETE      | /api/v1/motos/deletar/{id}                 | Remove uma moto pelo ID                |
+| ML Manutenção   | POST        | /api/v1/ml/motos/{chassi}/prob-manutencao  | Faz a análise de probabilidade de manutenção da moto         |
 
 ---
+
+### 🧪 Executando os Testes
+
+1. Pré-requisitos:
+   - API configurada conforme instruções acima.
+   - Banco disponível e pré-populado conforme necessidade dos testes.
+   - Projeto EasyFinder.Tests referenciando a API.
+
+2. No terminal:
+   
+dotnet test

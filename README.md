@@ -11,7 +11,7 @@
 
 ### 💡 Descrição da Solução
 
-Este projeto em **.NET 9** utiliza **Minimal APIs**, **Entity Framework Core** (Oracle) e interface gráfica via **Scalar UI** para um sistema de controle de pátios de motos. Permite gerenciamento completo de galpões, andares, pátios, blocos, vagas e motos, incluindo operações de CRUD, consultas paginadas/filtradas, autenticação JWT e predição automatizada de manutenção via ML.
+Este projeto em **.NET 9** utiliza **Minimal APIs**, **Entity Framework Core** (Azure SQL) e interface gráfica via **Scalar UI** para um sistema de controle de pátios de motos. Permite gerenciamento completo de galpões, andares, pátios, blocos, vagas e motos, incluindo operações de CRUD, consultas paginadas/filtradas, autenticação JWT e predição automatizada de manutenção via ML.
 
 ---
 
@@ -22,7 +22,7 @@ Este projeto em **.NET 9** utiliza **Minimal APIs**, **Entity Framework Core** (
 Certifique-se de ter instalado:
 
 - [.NET SDK 9.0+](https://dotnet.microsoft.com/en-us/download)
-- Acesso a um banco Oracle (ex: `oracle.fiap.com.br`)
+- Acesso a um banco Azure SQL
 - Uma IDE como **Rider**, **Visual Studio 2022+** ou **VS Code** com extensões C#
 
 ---
@@ -40,7 +40,7 @@ cd .Net
 
 ```json
 "ConnectionStrings": {
-  "FiapOracleDb": "Data Source=//oracle.fiap.com.br:1521/orcl;User Id=seu_usuario;Password=sua_senha;"
+  "AzureSqlDb": Server=tcp:servidor-sqldb-mottugjm.database.windows.net,1433;Initial Catalog=sqldb-mottugjm-001;Persist Security Info=False;User ID=adm-sqldb-mottugjm;Password=Fiap@2tdspf;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 }
 ```
 
@@ -83,7 +83,7 @@ dotnet run --project EasyFinder.csproj
 ### 📦 Tecnologias Utilizadas
 
 - .NET 9
-- Entity Framework Core + Oracle
+- Entity Framework Core + Azure SQL
 - Minimal APIs
 - Scalar.AspNetCore (interface gráfica)
 - OpenAPI
@@ -140,7 +140,7 @@ Você pode interagir com os endpoints da API usando **Scalar UI**, **Postman**, 
 | Motos     | POST        | /api/v1/motos/inserir                      | Insere uma nova moto                   |
 | Motos     | PUT         | /api/v1/motos/atualizar/placa/{placa}      | Atualiza uma moto por placa            |
 | Motos     | PUT         | /api/v1/motos/atualizar/chassi/{chassi}    | Atualiza uma moto por chassi           |
-| Motos     | PUT         | /api/v1/motos/atualizar/{id}               | Atualiza uma moto por id               |
+| Motos     | PUT         | /api/v1/motos/atualizar/{id}               | Atualiza uma moto por ID               |
 | Motos     | DELETE      | /api/v1/motos/deletar/{id}                 | Remove uma moto pelo ID                |
 | ML Manutenção   | POST        | /api/v1/ml/motos/{chassi}/prob-manutencao  | Faz a análise de probabilidade de manutenção da moto         |
 

@@ -130,7 +130,7 @@ public static class MotoEndpoints
                 "Adiciona uma nova moto ao banco de dados com base nos dados enviados no corpo da requisição.");
 
 
-        // Atualizar
+        // Atualizar por ID
         group.MapPut("/{id}", async (int id, Moto moto, MottuDbContext db) =>
             {
                 var existing = await db.Motos.FindAsync(id);
@@ -150,6 +150,56 @@ public static class MotoEndpoints
             })
             .WithSummary("Atualiza uma moto existente")
             .WithDescription("Atualiza os dados de uma moto já cadastrado, identificado pelo ID. " +
+                             Status404);
+        
+        // Atualizar por Chassi
+        group.MapPut("/{chassi}", async (string chassi, Moto moto, MottuDbContext db) =>
+            {
+                var existing = await db.Motos
+                    .FirstOrDefaultAsync(m => string.Equals(m.Chassi, chassi, StringComparison.OrdinalIgnoreCase));
+                
+                
+                if (existing == null)
+                    return Results.NotFound();
+
+                existing.Chassi = moto.Chassi;
+                existing.Status = moto.Status;
+                existing.Marca = moto.Marca;
+                existing.Placa = moto.Placa;
+                existing.Modelo = moto.Modelo;
+                existing.Vaga_id = moto.Vaga_id;
+
+                await db.SaveChangesAsync();
+
+                return Results.Ok($"Moto com Chassi {chassi} atualizada com sucesso.");
+            })
+            .WithSummary("Atualiza uma moto existente")
+            .WithDescription("Atualiza os dados de uma moto já cadastrado, identificado pelo Chassi. " +
+                             Status404);
+        
+        // Atualizar por Placa
+        group.MapPut("/{placa}", async (string placa, Moto moto, MottuDbContext db) =>
+            {
+                var existing = await db.Motos
+                    .FirstOrDefaultAsync(m => string.Equals(m.Placa, placa, StringComparison.OrdinalIgnoreCase));
+                
+                
+                if (existing == null)
+                    return Results.NotFound();
+
+                existing.Chassi = moto.Chassi;
+                existing.Status = moto.Status;
+                existing.Marca = moto.Marca;
+                existing.Placa = moto.Placa;
+                existing.Modelo = moto.Modelo;
+                existing.Vaga_id = moto.Vaga_id;
+
+                await db.SaveChangesAsync();
+
+                return Results.Ok($"Moto com Placa {placa} atualizada com sucesso.");
+            })
+            .WithSummary("Atualiza uma moto existente")
+            .WithDescription("Atualiza os dados de uma moto já cadastrado, identificado pela placa. " +
                              Status404);
 
         // Deletar

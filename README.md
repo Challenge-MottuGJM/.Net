@@ -138,7 +138,9 @@ Você pode interagir com os endpoints da API usando **Scalar UI**, **Postman**, 
 | Motos     | GET         | /api/v1/motos/paginadas                    | Retorna motos paginadas (sem filtro)   |
 | Motos     | GET         | /api/v1/motos/search                       | Retorna motos paginadas por modelo     |
 | Motos     | POST        | /api/v1/motos/inserir                      | Insere uma nova moto                   |
-| Motos     | PUT         | /api/v1/motos/atualizar/{id}               | Atualiza uma moto                      |
+| Motos     | PUT         | /api/v1/motos/atualizar/placa/{placa}      | Atualiza uma moto por placa            |
+| Motos     | PUT         | /api/v1/motos/atualizar/chassi/{chassi}    | Atualiza uma moto por chassi           |
+| Motos     | PUT         | /api/v1/motos/atualizar/{id}               | Atualiza uma moto por id               |
 | Motos     | DELETE      | /api/v1/motos/deletar/{id}                 | Remove uma moto pelo ID                |
 | ML Manutenção   | POST        | /api/v1/ml/motos/{chassi}/prob-manutencao  | Faz a análise de probabilidade de manutenção da moto         |
 

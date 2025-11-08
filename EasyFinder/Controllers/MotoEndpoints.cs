@@ -153,7 +153,7 @@ public static class MotoEndpoints
                              Status404);
         
         // Atualizar por Chassi
-        group.MapPut("/{chassi}", async (string chassi, Moto moto, MottuDbContext db) =>
+        group.MapPut("/chassi/{chassi}", async (string chassi, Moto moto, MottuDbContext db) =>
             {
                 var existing = await db.Motos
                     .FirstOrDefaultAsync(m => string.Equals(m.Chassi, chassi, StringComparison.OrdinalIgnoreCase));
@@ -178,7 +178,7 @@ public static class MotoEndpoints
                              Status404);
         
         // Atualizar por Placa
-        group.MapPut("/{placa}", async (string placa, Moto moto, MottuDbContext db) =>
+        group.MapPut("/placa/{placa}", async (string placa, Moto moto, MottuDbContext db) =>
             {
                 var existing = await db.Motos
                     .FirstOrDefaultAsync(m => string.Equals(m.Placa, placa, StringComparison.OrdinalIgnoreCase));

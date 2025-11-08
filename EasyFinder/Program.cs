@@ -18,7 +18,7 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         builder.Services.AddDbContext<MottuDbContext>(options =>
-            options.UseOracle(builder.Configuration.GetConnectionString("FiapOracleDb")));
+            options.UseAzureSql(builder.Configuration.GetConnectionString("AzureSqlDb")));
 
         builder.Services.AddOpenApi(options =>
         {

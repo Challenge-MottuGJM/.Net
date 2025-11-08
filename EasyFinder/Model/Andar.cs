@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using System.Text.Json.Serialization;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
@@ -26,6 +27,7 @@ public class Andar : IBindableFromHttpContext<Andar>
     [Column("ID")]
     [Key]
     [Description("Identificador único do Andar")]
+    [JsonIgnore]
     public int Id { get; set; }
     
     [Column("NUMERO_ANDAR")]

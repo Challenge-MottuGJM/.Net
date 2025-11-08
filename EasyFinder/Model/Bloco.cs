@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using System.Text.Json.Serialization;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
@@ -25,11 +26,12 @@ public class Bloco : IBindableFromHttpContext<Bloco>
     [Column("ID")]
     [Key]
     [Description("Identificador único do Bloco")]
+    [JsonIgnore]
     public int Id { get; set; }
     
     [Column("LETRA_BLOCO")]
     [Description("Letra do bloco")]
-    public string? Letra_bloco { get; set; }
+    public string Letra_bloco { get; set; } = string.Empty;
 
     [Column("PATIO_ID")]
     [Description("Identificador único do Patio que se encontra o Bloco")]

@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using System.Text.Json.Serialization;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
@@ -25,6 +26,7 @@ public class Usuario : IBindableFromHttpContext<Usuario>
     
     [Column("ID")]
     [Description("Identificador único do Usuário")]
+    [JsonIgnore]
     public int Id { get; set; }
 
     [Column("USUARIO")]

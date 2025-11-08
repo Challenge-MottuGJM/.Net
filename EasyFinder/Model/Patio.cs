@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using System.Text.Json.Serialization;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
@@ -27,6 +28,7 @@ public class Patio : IBindableFromHttpContext<Patio>
     [Column("ID")]
     [Key]
     [Description("Identificador único do Patio")]
+    [JsonIgnore]
     public int Id { get; set; }
     
     [Column("NUMERO_PATIO")]

@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using System.Text.Json.Serialization;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
@@ -26,6 +27,7 @@ public class Moto: IBindableFromHttpContext<Moto>
     [Column("ID")]
     [Key]
     [Description("Identificador único da Moto")]
+    [JsonIgnore]
     public int Id { get; set; }
     
     [Column("STATUS")]

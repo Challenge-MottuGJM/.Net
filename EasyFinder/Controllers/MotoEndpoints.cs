@@ -20,9 +20,11 @@ public static class MotoEndpoints
         // Get all
         group.MapGet("/motos", async (MottuDbContext db) =>
                 await db.Motos.ToListAsync())
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
             .WithSummary("Retorna todas as motos")
             .WithDescription("Retorna todas as motos cadastrados no banco de dados, " +
-                             "mesmo que só seja encontrado uma vaga, ele ainda vai retornar uma lista");
+                             "mesmo que só seja encontrado uma moto, ele ainda vai retornar uma lista");
 
         // GetById
         group.MapGet("/motos/{id}", async (int id, MottuDbContext db) =>
@@ -30,12 +32,14 @@ public static class MotoEndpoints
                 var moto = await db.Motos.FindAsync(id);
                 return moto is not null ? Results.Ok(moto) : Results.NotFound();
             })
-            .WithSummary("Busca uma vaga pelo ID")
-            .WithDescription("Retorna os dados de uma vaga específico com base no ID informado. " +
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
+            .WithSummary("Busca uma moto pelo ID")
+            .WithDescription("Retorna os dados de uma moto específico com base no ID informado. " +
                              Status404);
 
         //Get por status
-        group.MapGet("/status/{status}", async (string status, MottuDbContext db) =>
+        group.MapGet("/motos/status/{status}", async (string status, MottuDbContext db) =>
             {
                 var motos = await db.Motos
                     .Where(m => string.Equals(m.Status, status, StringComparison.OrdinalIgnoreCase))
@@ -43,12 +47,14 @@ public static class MotoEndpoints
 
                 return motos.Count > 0 ? Results.Ok(motos) : Results.NotFound();
             })
-            .WithSummary("Busca uma vaga pelo Status")
-            .WithDescription("Retorna os dados de uma vaga específico com base no Status informado. " +
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
+            .WithSummary("Busca uma moto pelo Status")
+            .WithDescription("Retorna os dados de uma moto específico com base no Status informado. " +
                              Status404);
 
         //Get por modelo
-        group.MapGet("/modelo/{modelo}", async (string modelo, MottuDbContext db) =>
+        group.MapGet("/motos/modelo/{modelo}", async (string modelo, MottuDbContext db) =>
             {
                 var motos = await db.Motos
                     .Where(m => string.Equals(m.Modelo, modelo, StringComparison.OrdinalIgnoreCase))
@@ -56,12 +62,14 @@ public static class MotoEndpoints
 
                 return motos.Count > 0 ? Results.Ok(motos) : Results.NotFound();
             })
-            .WithSummary("Busca uma vaga pelo modelo")
-            .WithDescription("Retorna os dados de uma vaga específico com base no modelo informado. " +
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
+            .WithSummary("Busca uma moto pelo modelo")
+            .WithDescription("Retorna os dados de uma moto específico com base no modelo informado. " +
                              Status404);
 
         //Get por placa
-        group.MapGet("/placa/{placa}", async (string placa, MottuDbContext db) =>
+        group.MapGet("/motos/placa/{placa}", async (string placa, MottuDbContext db) =>
             {
                 var motos = await db.Motos
                     .Where(m => string.Equals(m.Placa, placa, StringComparison.OrdinalIgnoreCase))
@@ -69,12 +77,14 @@ public static class MotoEndpoints
 
                 return motos.Count > 0 ? Results.Ok(motos) : Results.NotFound();
             })
-            .WithSummary("Busca uma vaga pela placa")
-            .WithDescription("Retorna os dados de uma vaga específico com base na placa informado. " +
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
+            .WithSummary("Busca uma moto pela placa")
+            .WithDescription("Retorna os dados de uma moto específico com base na placa informado. " +
                              Status404);
 
         // Busca paginada por modelo
-        group.MapGet("/search", async (int? page, string? modelo, MottuDbContext db) =>
+        group.MapGet("/motos/search", async (int? page, string? modelo, MottuDbContext db) =>
             {
                 var pageSize = 10;
                 var skipItems = page.HasValue ? (page.Value - 1) * pageSize : 0;
@@ -91,12 +101,14 @@ public static class MotoEndpoints
 
                 return Results.Ok(new SearchDto<Moto>(searchTerm, page, totalItems, data));
             })
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
             .WithSummary("Busca paginada de motos por modelo")
             .WithDescription("Retorna uma lista paginada de motos cujo modelo contenha o termo informado. " +
                              "Aceita parâmetros opcionais de modelo e página.");
 
         // Busca paginada
-        group.MapGet("/paginadas", async (int? page, MottuDbContext db) =>
+        group.MapGet("/motos/paginadas", async (int? page, MottuDbContext db) =>
             {
                 var pageSize = 10;
                 var currentPage = page ?? 1;
@@ -110,13 +122,15 @@ public static class MotoEndpoints
 
                 return Results.Ok(new SearchDto<Moto>(null, currentPage, totalItems, data));
             })
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
             .WithSummary("Retorna motos paginadas")
             .WithDescription("Retorna todos os registros de motos paginados. " +
                              "Cada página retorna um número fixo de registros (10 por página neste exemplo).");
 
 
         // Inserir
-        group.MapPost("/", async (Moto moto, MottuDbContext db) =>
+        group.MapPost("/motos/inserir", async (Moto moto, MottuDbContext db) =>
             {
                 if (moto == null)
                     return Results.BadRequest("Dados inválidos.");
@@ -125,13 +139,16 @@ public static class MotoEndpoints
                 await db.SaveChangesAsync();
                 return Results.Created($"/motos/{moto.Id}", moto);
             })
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status400BadRequest)
+            .Accepts<Moto>("application/json")
             .WithSummary("Insere uma nova moto")
             .WithDescription(
                 "Adiciona uma nova moto ao banco de dados com base nos dados enviados no corpo da requisição.");
 
 
         // Atualizar por ID
-        group.MapPut("/{id}", async (int id, Moto moto, MottuDbContext db) =>
+        group.MapPut("/motos/atualizar/{id}", async (int id, Moto moto, MottuDbContext db) =>
             {
                 var existing = await db.Motos.FindAsync(id);
                 if (existing == null)
@@ -148,12 +165,15 @@ public static class MotoEndpoints
 
                 return Results.Ok($"Moto com ID {id} atualizada com sucesso.");
             })
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status400BadRequest)
+            .Accepts<Moto>("application/json")
             .WithSummary("Atualiza uma moto existente")
             .WithDescription("Atualiza os dados de uma moto já cadastrado, identificado pelo ID. " +
                              Status404);
         
         // Atualizar por Chassi
-        group.MapPut("/chassi/{chassi}", async (string chassi, Moto moto, MottuDbContext db) =>
+        group.MapPut("/motos/atualizar/chassi/{chassi}", async (string chassi, Moto moto, MottuDbContext db) =>
             {
                 var existing = await db.Motos
                     .FirstOrDefaultAsync(m => string.Equals(m.Chassi, chassi, StringComparison.OrdinalIgnoreCase));
@@ -173,12 +193,15 @@ public static class MotoEndpoints
 
                 return Results.Ok($"Moto com Chassi {chassi} atualizada com sucesso.");
             })
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status400BadRequest)
+            .Accepts<Moto>("application/json")
             .WithSummary("Atualiza uma moto existente")
             .WithDescription("Atualiza os dados de uma moto já cadastrado, identificado pelo Chassi. " +
                              Status404);
         
         // Atualizar por Placa
-        group.MapPut("/placa/{placa}", async (string placa, Moto moto, MottuDbContext db) =>
+        group.MapPut("/motos/atualizar/placa/{placa}", async (string placa, Moto moto, MottuDbContext db) =>
             {
                 var existing = await db.Motos
                     .FirstOrDefaultAsync(m => string.Equals(m.Placa, placa, StringComparison.OrdinalIgnoreCase));
@@ -198,12 +221,15 @@ public static class MotoEndpoints
 
                 return Results.Ok($"Moto com Placa {placa} atualizada com sucesso.");
             })
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status400BadRequest)
+            .Accepts<Moto>("application/json")
             .WithSummary("Atualiza uma moto existente")
             .WithDescription("Atualiza os dados de uma moto já cadastrado, identificado pela placa. " +
                              Status404);
 
         // Deletar
-        group.MapDelete("/deletar/{id}", async (int id, MottuDbContext db) =>
+        group.MapDelete("/motos/deletar/{id}", async (int id, MottuDbContext db) =>
             {
                 var moto = await db.Motos.FindAsync(id);
                 if (moto == null)
@@ -214,6 +240,8 @@ public static class MotoEndpoints
 
                 return Results.Ok($"Moto com ID {id} removido com sucesso.");
             })
+            .Produces<Moto>(StatusCodes.Status200OK)
+            .Produces(StatusCodes.Status404NotFound)
             .WithSummary("Remove uma moto")
             .WithDescription("Remove uma moto do banco de dados com base no ID informado. " +
                              "Caso a moto não seja encontrado, retorna 404 Not Found.");

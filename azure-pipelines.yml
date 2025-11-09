@@ -42,7 +42,8 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)\EasyFinder\EasyFinder.zip'
-    ArtifactName: 'EasyFinderZip'
+    ArtifactName: 'drop'
+
 
 
 - task: AzureWebApp@1

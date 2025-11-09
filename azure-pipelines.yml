@@ -36,8 +36,9 @@ steps:
     arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)/EasyFinder'
     zipAfterPublish: true
 
-- script: dir $(Build.ArtifactStagingDirectory)/EasyFinder
+- script: dir $(Build.ArtifactStagingDirectory)\EasyFinder
   displayName: 'Listar arquivos publicados'
+
 
 - task: AzureWebApp@1
   inputs:

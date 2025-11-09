@@ -106,7 +106,7 @@ Você pode interagir com os endpoints da API usando **Scalar UI**, **Postman**, 
 
 | Entidade  | Método HTTP | Rota                                | Descrição                                     |
 |-----------|-------------|-------------------------------------|-----------------------------------------------|
-| Login     | POST        | /api/v1/login                              | Retorna o token JWT para acesso        |
+| Login     | POST        | /login                                     | Retorna o token JWT para acesso        |
 | Galpões   | GET         | /api/v1/galpoes                            | Retorna todos os galpões               |
 | Galpões   | GET         | /api/v1/galpoes/{id}                       | Retorna um galpão por ID               |
 | Galpões   | POST        | /api/v1/galpoes/inserir                    | Insere um novo galpão                  |

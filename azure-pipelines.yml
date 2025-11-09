@@ -39,6 +39,12 @@ steps:
 - script: dir $(Build.ArtifactStagingDirectory)\EasyFinder
   displayName: 'Listar arquivos publicados'
 
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\EasyFinder\EasyFinder.zip'
+    ArtifactName: 'EasyFinderZip'
+
+
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure-ServiceConnection-Deploy'

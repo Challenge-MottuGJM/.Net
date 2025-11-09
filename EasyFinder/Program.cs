@@ -11,7 +11,6 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
-
         var jwtKey = "p1E4QW6L0wSYd5y2rVYj3x8K9nM2tB0h7uC4zP1qR6sT8wZ3aJ5dF6gH8kL2mN";
         var jwtIssuer = "EasyFinderAPI";
 
@@ -75,31 +74,30 @@ public class Program
 
         app.MapHealthChecks("/health");
 
-        if (app.Environment.IsDevelopment())
+        // ---- ATIVAR SEMPRE, também na produção ----
+        app.MapOpenApi();
+
+        app.MapScalarApiReference(options =>
         {
-            app.MapOpenApi();
-
-            app.MapScalarApiReference(options =>
+            options.WithPreferredScheme("Bearer");
+            options.WithHttpBearerAuthentication(bearer => { });
+            options.Authentication = new ScalarAuthenticationOptions
             {
-                options.WithPreferredScheme("Bearer");
-                options.WithHttpBearerAuthentication(bearer => { });
-                options.Authentication = new ScalarAuthenticationOptions
-                {
-                    PreferredSecurityScheme = "Bearer"
-                };
-            });
-        }
+                PreferredSecurityScheme = "Bearer"
+            };
+        });
+        // -------------------------------------------
 
-// Endpoint de login (gera JWT)
+        // Endpoint de login (gera JWT)
         LoginEndpoints.MapLoginEndpoints(app, jwtKey, jwtIssuer);
 
         app.UseAuthentication();
         app.UseAuthorization();
 
-// Grupo versionado protegido
+        // Grupo versionado protegido
         var v1 = app.MapGroup("/api/v1").RequireAuthorization();
 
-// Endpoints protegidos
+        // Endpoints protegidos
         GalpaoEndpoints.Map(v1);
         PatioEndpoints.Map(v1);
         AndarEndpoints.Map(v1);

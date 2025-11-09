@@ -34,6 +34,7 @@ Certifique-se de ter instalado:
 ```bash
 git clone https://github.com/Challenge-MottuGJM/dotnet.git
 cd .Net
+cd EasyFinder
 ```
 
 2. Configure a connection string em `appsettings.json`:
@@ -55,6 +56,7 @@ dotnet run --project EasyFinder.csproj
 1. Faça login para obter o **JWT**:
 
    - Use Scalar UI, Postman, ou curl:
+   - `localhost:5148/scalar`
    - Endpoint: `POST /login`
    - Exemplo de corpo:
 

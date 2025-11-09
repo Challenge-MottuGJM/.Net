@@ -23,7 +23,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-# Etapa de teste removida porque não há projeto de teste. Descomente se criar um projeto de testes.
+# Descomente abaixo se criar testes
 #- task: VSTest@2
 #  inputs:
 #    platform: '$(buildPlatform)'

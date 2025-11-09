@@ -34,6 +34,7 @@ Certifique-se de ter instalado:
 ```bash
 git clone https://github.com/Challenge-MottuGJM/dotnet.git
 cd .Net
+cd EasyFinder
 ```
 
 2. Configure a connection string em `appsettings.json`:
@@ -55,6 +56,7 @@ dotnet run --project EasyFinder.csproj
 1. Faça login para obter o **JWT**:
 
    - Use Scalar UI, Postman, ou curl:
+   - `localhost:5148/scalar`
    - Endpoint: `POST /login`
    - Exemplo de corpo:
 
@@ -104,7 +106,7 @@ Você pode interagir com os endpoints da API usando **Scalar UI**, **Postman**, 
 
 | Entidade  | Método HTTP | Rota                                | Descrição                                     |
 |-----------|-------------|-------------------------------------|-----------------------------------------------|
-| Login     | POST        | /api/v1/login                              | Retorna o token JWT para acesso        |
+| Login     | POST        | /login                                     | Retorna o token JWT para acesso        |
 | Galpões   | GET         | /api/v1/galpoes                            | Retorna todos os galpões               |
 | Galpões   | GET         | /api/v1/galpoes/{id}                       | Retorna um galpão por ID               |
 | Galpões   | POST        | /api/v1/galpoes/inserir                    | Insere um novo galpão                  |

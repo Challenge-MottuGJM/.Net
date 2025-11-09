@@ -28,7 +28,17 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: VSTest@2
+# Etapa de teste removida porque não há projeto de teste. Descomente se criar um projeto de testes.
+#- task: VSTest@2
+#  inputs:
+#    platform: '$(buildPlatform)'
+#    configuration: '$(buildConfiguration)'
+
+
+- task: AzureWebApp@1
   inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    azureSubscription: 'Azure-ServiceConnection-Deploy'
+    appName: 'EasyFinder'
+    package: '$(build.artifactStagingDirectory)\WebApp.zip'
+
+

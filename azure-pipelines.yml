@@ -45,7 +45,8 @@ steps:
   inputs:
     azureSubscription: 'Azure-ServiceConnection-Deploy'
     appName: 'EasyFinder'
-    package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
+    package: '$(Build.ArtifactStagingDirectory)/EasyFinder.zip'
+
 
 
 

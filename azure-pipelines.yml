@@ -35,10 +35,13 @@ steps:
 #    configuration: '$(buildConfiguration)'
 
 
-- task: AzureWebApp@1
+- task: AzureRmWebAppDeployment@4
   inputs:
+    ConnectionType: 'AzureRM'
     azureSubscription: 'Azure-ServiceConnection-Deploy'
-    appName: 'EasyFinder'
-    package: '$(build.artifactStagingDirectory)\WebApp.zip'
+    appType: 'webApp'
+    WebAppName: 'EasyFinder'
+    packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
+
 
 

@@ -23,7 +23,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-# Comente/Remova o VSTest se não houver testes
+# Etapa de teste removida porque não há projeto de teste. Descomente se criar um projeto de testes.
 #- task: VSTest@2
 #  inputs:
 #    platform: '$(buildPlatform)'
@@ -33,15 +33,14 @@ steps:
   inputs:
     command: 'publish'
     projects: '**/*.csproj'
-    arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)/EasyFinder'
+    arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)\EasyFinder'
     zipAfterPublish: true
 
 - script: dir $(Build.ArtifactStagingDirectory)\EasyFinder
   displayName: 'Listar arquivos publicados'
 
-
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Azure-ServiceConnection-Deploy'
     appName: 'EasyFinder'
-    package: '$(Build.ArtifactStagingDirectory)/EasyFinder/EasyFinder.zip'
+    package: '$(Build.ArtifactStagingDirectory)\EasyFinder\EasyFinder.zip'

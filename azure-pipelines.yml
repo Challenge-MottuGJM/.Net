@@ -23,11 +23,12 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+# --- TASK DE TESTES, INSIRA LOGO DEPOIS DO BUILD ---
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-
+# ----------------------------------------------------
 
 - task: DotNetCoreCLI@2
   inputs:

@@ -23,11 +23,11 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-# Descomente abaixo se criar testes
-#- task: VSTest@2
-#  inputs:
-#    platform: '$(buildPlatform)'
-#    configuration: '$(buildConfiguration)'
+- task: VSTest@2
+  inputs:
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
 
 - task: DotNetCoreCLI@2
   inputs:
@@ -43,8 +43,6 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)\EasyFinder\EasyFinder.zip'
     ArtifactName: 'drop'
-
-
 
 - task: AzureWebApp@1
   inputs:
